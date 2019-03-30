@@ -6,7 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="my_learning" />
+        <module name="concurrency_learning" />
+        <module name="mybatis" />
+        <module name="mybatis_learning" />
       </profile>
     </annotationProcessing>
   </component>
