@@ -15,10 +15,6 @@ public class GoodsInfo {
         this.storeNumber = storeNumber;
     }
 
-
-
-
-
     public void changeNumber(int sellNumber){
         this.totalMoney += sellNumber*25;
         this.storeNumber -= sellNumber;
