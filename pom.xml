@@ -11,6 +11,7 @@
     <modules>
         <module>mybatis_learning</module>
         <module>concurrency_learning</module>
+        <!--<module>spring_learning</module>最为单独项目-->
     </modules>
 
 

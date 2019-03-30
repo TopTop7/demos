@@ -9,6 +9,7 @@
         <module name="concurrency_learning" />
         <module name="mybatis" />
         <module name="mybatis_learning" />
+        <module name="spring_learning" />
       </profile>
     </annotationProcessing>
   </component>

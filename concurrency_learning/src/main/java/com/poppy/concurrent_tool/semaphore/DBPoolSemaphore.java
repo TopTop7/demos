@@ -1,6 +1,7 @@
 package com.poppy.concurrent_tool.semaphore;
 
-import com.poppy.concurrent_tool.pool.SqlConnectImpl;
+
+import com.poppy.concurrent_tool.countDownLatch.SqlConnectImpl;
 
 import java.sql.Connection;
 import java.util.LinkedList;
