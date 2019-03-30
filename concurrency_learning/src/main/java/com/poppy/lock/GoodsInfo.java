@@ -16,6 +16,9 @@ public class GoodsInfo {
     }
 
 
+
+
+
     public void changeNumber(int sellNumber){
         this.totalMoney += sellNumber*25;
         this.storeNumber -= sellNumber;
