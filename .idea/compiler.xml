@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="concurrency_learning" />
+        <module name="jvm_learning" />
         <module name="mybatis" />
         <module name="mybatis_learning" />
         <module name="spring_learning" />

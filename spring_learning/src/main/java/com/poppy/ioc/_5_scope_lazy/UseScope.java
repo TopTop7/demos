@@ -4,6 +4,7 @@ import com.poppy.ioc._1_bean.Dog;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Lazy;
+import org.springframework.context.annotation.Scope;
 
 @Configuration
 public class UseScope {
@@ -14,7 +15,7 @@ public class UseScope {
      * request: 主要针对web应用, 递交一次请求创建一个实例
      * session:同一个session创建一个实例
      */
-    //@Scope("prototype")
+    @Scope("prototype")
     @Lazy //使用时在创建对象实例
     @Bean
     public Dog dog() {
