@@ -2,24 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84b5b6b2-1f40-4809-8e95-9effec4dc69c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jvm_learning/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jvm_learning/src/main/java/Test1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../forks/mybatis-3/src/main/java/org/apache/ibatis/builder/xml/XMLConfigBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../forks/mybatis-3/src/main/java/org/apache/ibatis/builder/xml/XMLConfigBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../forks/mybatis-3/src/main/java/org/apache/ibatis/logging/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/../forks/mybatis-3/src/main/java/org/apache/ibatis/logging/Log.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../forks/mybatis-3/src/main/java/org/apache/ibatis/logging/log4j/Log4jImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../forks/mybatis-3/src/main/java/org/apache/ibatis/logging/log4j/Log4jImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../forks/mybatis-3/src/test/java/org/apache/ibatis/logging/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../forks/mybatis-3/src/test/java/org/apache/ibatis/logging/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forks/tomcat/conf/server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../forks/tomcat/conf/server.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_learning/src/main/java/com/poppy/ioc/_1_bean/Pig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_learning/src/main/java/com/poppy/ioc/_1_bean/Pig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_learning/src/main/java/com/poppy/ioc/_5_scope_lazy/UseScope.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_learning/src/main/java/com/poppy/ioc/_5_scope_lazy/UseScope.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_learning/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_learning/src/main/resources/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_learning/src/test/java/com/poppy/ioc/_6_import/ConfigTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_learning/src/test/java/com/poppy/ioc/_6_import/ConfigTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_learning/target/classes/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_learning/target/classes/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_learning/target/classes/com/poppy/ioc/_1_bean/Pig.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_learning/target/classes/com/poppy/ioc/_1_bean/Pig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_learning/target/classes/com/poppy/ioc/_5_scope_lazy/UseScope.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_learning/target/classes/com/poppy/ioc/_5_scope_lazy/UseScope.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_learning/target/test-classes/com/poppy/ioc/_6_import/ConfigTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_learning/target/test-classes/com/poppy/ioc/_6_import/ConfigTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency_learning/src/main/java/com/poppy/atomic/UseAtomicStampedReference.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency_learning/src/main/java/com/poppy/atomic/UseAtomicStampedReference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency_learning/target/classes/com/poppy/atomic/UseAtomicStampedReference.class" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency_learning/target/classes/com/poppy/atomic/UseAtomicStampedReference.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_learning/src/main/java/com/poppy/ioc/_2_config_mode/UseXmlConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_learning/src/main/java/com/poppy/ioc/_2_config_mode/UseXmlConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_learning/target/classes/com/poppy/ioc/_2_config_mode/UseXmlConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_learning/target/classes/com/poppy/ioc/_2_config_mode/UseXmlConfig.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -122,48 +114,61 @@
     <session id="-67062658">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="AbstractQueuedSynchronizer" value="1" />
-          <entry key="AnnotationConfigApplicationContext" value="1" />
-          <entry key="ClassPathXmlApplicationContext" value="3" />
+          <entry key="AbstractApplicationContext" value="2" />
+          <entry key="AbstractQueuedSynchronizer" value="2" />
+          <entry key="AbstractXmlApplicationContext" value="1" />
+          <entry key="AnnotationConfigApplicationContext" value="2" />
+          <entry key="BeanDefinition" value="1" />
+          <entry key="BeanFactory" value="1" />
+          <entry key="ClassPathXmlApplicationContext" value="4" />
+          <entry key="ConcurrentHashMap" value="1" />
           <entry key="Configuration" value="1" />
-          <entry key="DefaultListableBeanFactory" value="1" />
+          <entry key="CountDownLatch" value="1" />
+          <entry key="CyclicBarrier" value="1" />
+          <entry key="DefaultListableBeanFactory" value="2" />
           <entry key="DefaultSqlSessionFactory" value="1" />
           <entry key="ExecutorService" value="1" />
           <entry key="FileSystemResource" value="1" />
+          <entry key="ForkJoinPool" value="1" />
           <entry key="FutureTask" value="1" />
           <entry key="Lock" value="1" />
+          <entry key="LockSupport" value="1" />
           <entry key="Log" value="1" />
           <entry key="LogFactory" value="1" />
           <entry key="PersistenceException" value="1" />
+          <entry key="RecursiveTask" value="1" />
           <entry key="Resource" value="1" />
+          <entry key="ResourceLoader" value="1" />
           <entry key="XMLConfigBuilder" value="1" />
-          <entry key="class" value="51" />
+          <entry key="XmlBeanDefinitionReader" value="2" />
+          <entry key="class" value="59" />
           <entry key="fxml" value="2" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="503" />
+          <entry key="java" value="605" />
           <entry key="properties" value="1" />
           <entry key="sql" value="5" />
-          <entry key="xml" value="52" />
+          <entry key="xml" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="51" />
+          <entry key="CLASS" value="59" />
           <entry key="Git file" value="1" />
-          <entry key="JAVA" value="503" />
+          <entry key="JAVA" value="605" />
           <entry key="Properties" value="1" />
           <entry key="SQL" value="5" />
           <entry key="Scratch" value="1" />
-          <entry key="UML" value="17" />
-          <entry key="XML" value="53" />
+          <entry key="UML" value="35" />
+          <entry key="XML" value="54" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -171,8 +176,8 @@
           <entry key="class" value="1" />
           <entry key="dummy" value="78" />
           <entry key="gitignore" value="2" />
-          <entry key="java" value="6194" />
-          <entry key="xml" value="271" />
+          <entry key="java" value="6313" />
+          <entry key="xml" value="280" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -180,9 +185,9 @@
           <entry key="AspectJ" value="1" />
           <entry key="CLASS" value="1" />
           <entry key="Git file" value="2" />
-          <entry key="JAVA" value="6194" />
+          <entry key="JAVA" value="6313" />
           <entry key="PLAIN_TEXT" value="78" />
-          <entry key="XML" value="270" />
+          <entry key="XML" value="279" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.core.usages.trigger">
@@ -198,97 +203,121 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../forks/mybatis-3/src/main/java/org/apache/ibatis/builder/xml/XMLConfigBuilder.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/context/support/AbstractXmlApplicationContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="272" selection-start-line="272" selection-end-line="272" />
+            <state relative-caret-position="394">
+              <caret line="94" selection-start-line="94" selection-end-line="94" />
+              <folding>
+                <element signature="e#2363#2364#0" expanded="true" />
+                <element signature="e#2383#2384#0" expanded="true" />
+                <element signature="e#4074#4075#0" expanded="true" />
+                <element signature="e#4118#4119#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jvm_learning/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/context/support/AbstractRefreshableApplicationContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="140" selection-start-line="140" selection-end-line="140" />
+              <folding>
+                <element signature="e#3877#3878#0" expanded="true" />
+                <element signature="e#3897#3898#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="1104" column="35" selection-start-line="1104" selection-start-column="35" selection-end-line="1104" selection-end-column="35" />
+              <folding>
+                <element signature="e#10720#10721#0" expanded="true" />
+                <element signature="e#10741#10742#0" expanded="true" />
+                <element signature="e#11554#11555#0" expanded="true" />
+                <element signature="e#11579#11580#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="275" column="40" selection-start-line="275" selection-start-column="40" selection-end-line="275" selection-end-column="40" />
+              <folding>
+                <element signature="e#42471#42472#0" expanded="true" />
+                <element signature="e#42542#42543#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../forks/spring-framework/spring-aspects/src/main/java/org/springframework/transaction/aspectj/AspectJJtaTransactionManagementConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="50" column="1" lean-forward="true" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jvm_learning/src/main/java/Test1.java">
+        <entry file="file://$PROJECT_DIR$/../forks/tomcat/conf/server.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+            <state relative-caret-position="348">
+              <caret line="71" column="24" lean-forward="true" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="178" column="50" selection-start-line="178" selection-start-column="50" selection-end-line="178" selection-end-column="50" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#7034#7035#0" expanded="true" />
+                <element signature="e#7076#7077#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../forks/mybatis-3/src/main/java/org/apache/ibatis/builder/BaseBuilder.java">
+        <entry file="file://$PROJECT_DIR$/../forks/spring-framework/spring-context/src/main/java/org/springframework/context/support/AbstractApplicationContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../forks/mybatis-3/src/main/java/org/apache/ibatis/session/Configuration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="111" column="32" selection-start-line="111" selection-start-column="20" selection-end-line="111" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../forks/mybatis-3/src/main/java/org/apache/ibatis/parsing/XPathParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="248" selection-start-line="248" selection-end-line="248" />
+            <state relative-caret-position="437">
+              <caret line="558" column="30" selection-start-line="558" selection-start-column="18" selection-end-line="558" selection-end-column="30" />
               <folding>
-                <element signature="e#7548#7549#0" expanded="true" />
-                <element signature="e#7595#7596#0" expanded="true" />
+                <element signature="e#12674#12675#0" expanded="true" />
+                <element signature="e#12713#12714#0" expanded="true" />
+                <element signature="e#39585#39586#0" expanded="true" />
+                <element signature="e#39628#39629#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../forks/mybatis-3/src/test/java/org/apache/ibatis/logging/mybatis-config.xml">
+        <entry file="file://$PROJECT_DIR$/spring_learning/src/main/java/com/poppy/ioc/_2_config_mode/UseXmlConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+            <state relative-caret-position="150">
+              <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../forks/mybatis-3/src/main/java/org/apache/ibatis/parsing/XNode.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/BeanFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="115" selection-start-line="115" selection-end-line="115" />
-              <folding>
-                <element signature="e#3381#3382#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/org/xml/sax/helpers/LocatorImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="87" selection-start-line="87" selection-end-line="87" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/com/sun/org/apache/xerces/internal/jaxp/DocumentBuilderImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="332" column="51" selection-start-line="332" selection-start-column="51" selection-end-line="332" selection-end-column="51" />
+            <state relative-caret-position="179">
+              <caret line="138" column="11" selection-start-line="138" selection-start-column="11" selection-end-line="138" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -325,11 +354,19 @@
       <find>getValidationModeForResource</find>
       <find>detectValidationMode</find>
       <find>registerBeanDefinitions</find>
+      <find>tryAcquire</find>
+      <find>refresh()</find>
+      <find>startupShutdownMonitor</find>
+      <find>prepareRefresh</find>
+      <find>createEnvironment</find>
+      <find>initPropertySources</find>
+      <find>getEnvironment</find>
+      <find>refreshBeanFactory</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -6143,6 +6180,7 @@
     </option>
     <option name="modificationStamps">
       <map>
+        <entry key="$PROJECT_DIR$/../forks/spring-framework" value="44875349284000" />
         <entry key="$PROJECT_DIR$/../forks/spring-framework/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/../forks/spring-framework/build.gradle" value="3880328902" />
         <entry key="$PROJECT_DIR$/../forks/spring-framework/buildSrc/.gradle" value="0" />
@@ -7552,10 +7590,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring_learning/src/main/java/com/poppy/ioc/UseScope.java" />
-        <option value="$PROJECT_DIR$/spring_learning/src/main/java/com/poppy/ioc/UseXmlConfig.java" />
-        <option value="$PROJECT_DIR$/spring_learning/src/main/java/com/poppy/ioc/DogConfigration.java" />
-        <option value="$PROJECT_DIR$/spring_learning/src/main/java/com/poppy/ioc/UseAnnoConfig.java" />
         <option value="$PROJECT_DIR$/spring_learning/src/main/java/com/poppy/ioc/useAnnoCondition/Cap5MainConfig.java" />
         <option value="$PROJECT_DIR$/spring_learning/src/main/java/com/poppy/ioc/Person.java" />
         <option value="$PROJECT_DIR$/spring_learning/src/main/java/com/poppy/ioc/useAnnoCondition/DogConfiguration.java" />
@@ -7577,7 +7611,6 @@
         <option value="$PROJECT_DIR$/spring_learning/src/test/java/com/poppy/ioc/_6_import/CustomImportSelector.java" />
         <option value="$PROJECT_DIR$/spring_learning/src/main/java/com/poppy/ioc/_1_bean/Dog.java" />
         <option value="$PROJECT_DIR$/spring_learning/src/main/java/com/poppy/ioc/_2_config_mode/UseAnnoConfig.java" />
-        <option value="$PROJECT_DIR$/spring_learning/src/main/java/com/poppy/ioc/_2_config_mode/UseXmlConfig.java" />
         <option value="$PROJECT_DIR$/spring_learning/src/test/java/com/poppy/ioc/_2_config_mode/UseAnnoConfigTest.java" />
         <option value="$PROJECT_DIR$/spring_learning/src/main/java/com/poppy/ioc/_6_import/CustomImportSelector.java" />
         <option value="$PROJECT_DIR$/spring_learning/src/main/java/com/poppy/ioc/_6_import/CustomImportBeanDefinitionRegistrar.java" />
@@ -7603,6 +7636,11 @@
         <option value="$PROJECT_DIR$/../forks/mybatis-3/src/test/java/org/apache/ibatis/logging/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/../forks/mybatis-3/src/main/java/org/apache/ibatis/builder/xml/XMLConfigBuilder.java" />
         <option value="$PROJECT_DIR$/jvm_learning/src/main/java/Test1.java" />
+        <option value="$PROJECT_DIR$/concurrency_learning/src/main/java/com/poppy/atomic/UseAtomicStampedReference.java" />
+        <option value="$PROJECT_DIR$/concurrency_learning/src/main/java/com/poppy/concurrent_tool/UseCountDownLatch.java" />
+        <option value="$PROJECT_DIR$/../forks/spring-framework/spring-context/src/main/java/org/springframework/context/support/AbstractApplicationContext.java" />
+        <option value="$PROJECT_DIR$/spring_learning/src/main/java/com/poppy/ioc/_2_config_mode/UseXmlConfig.java" />
+        <option value="$PROJECT_DIR$/../forks/tomcat/conf/server.xml" />
       </list>
     </option>
   </component>
@@ -8062,6 +8100,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -8072,153 +8112,41 @@
             <path>
               <item name="my_learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="my_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="jvm_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_learning" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="jvm_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tomcat" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="jvm_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="tomcat" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis-3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis-3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis-3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis-3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis-3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis-3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis-3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="ibatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis-3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="ibatis" type="462c0819:PsiDirectoryNode" />
-              <item name="logging" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis-3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis-3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis-3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis-3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis-3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="ibatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis-3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="ibatis" type="462c0819:PsiDirectoryNode" />
-              <item name="logging" type="462c0819:PsiDirectoryNode" />
+              <item name="tomcat" type="462c0819:PsiDirectoryNode" />
+              <item name="webapps" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="logImpl&#9;PSI&#9;JAVA://org.apache.ibatis.logging.LogFactoryTest#shouldReadLogImplFromSettings&#10;XmlBeanDefinitionReader&#9;PSI&#9;JAVA://org.springframework.beans.factory.xml.XmlBeanDefinitionReader&#10;BeanDefinitionMap&#9;PSI&#9;JAVA://org.springframework.beans.factory.support.DefaultListableBeanFactory#beanDefinitionMap&#10;DefaultListableBeanFactory&#9;FILE&#9;file:///Users/poppy/projects/forks/spring-framework/spring-beans/src/main/java/org/springframework/beans/factory/support/DefaultListableBeanFactory.java&#10;Resource&#9;FILE&#9;jar:///Users/poppy/.m2/repository/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar!/org/springframework/core/io/Resource.class&#10;ClassPa&#9;FILE&#9;file:///Users/poppy/projects/forks/spring-framework/spring-context/src/main/java/org/springframework/context/support/ClassPathXmlApplicationContext.java&#10;FileSystemResourceLoader&#9;PSI&#9;JAVA://org.springframework.core.io.FileSystemResourceLoader&#10;DefaultResourceLoader&#9;PSI&#9;JAVA://org.springframework.core.io.DefaultResourceLoader&#10;FileSystemResource&#9;PSI&#9;JAVA://org.springframework.core.io.FileSystemResource&#10;Aware&#9;PSI&#9;JAVA://org.springframework.context.ApplicationContextAware&#10;ClassPathXml&#9;PSI&#9;JAVA://org.springframework.context.support.ClassPathXmlApplicationContext&#10;AnnotationConfigApplicationContext&#9;PSI&#9;JAVA://org.springframework.context.annotation.AnnotationConfigApplicationContext&#10;Reen&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock&#10;Lock&#9;PSI&#9;JAVA://java.util.concurrent.locks.Lock&#10;compute&#9;PSI&#9;JAVA://com.sun.tools.javac.processing.JavacProcessingEnvironment.ComputeAnnotationSet" />
+    <property name="SearchEverywhereHistoryKey" value="AbstractRefreshableApplicationContext&#9;FILE&#9;file:///Users/poppy/projects/forks/spring-framework/spring-context/src/main/java/org/springframework/context/support/AbstractRefreshableApplicationContext.java&#10;DefaultListableBeanFactory&#9;PSI&#9;JAVA://org.springframework.beans.factory.support.DefaultListableBeanFactory&#10;BeanFactory&#9;PSI&#9;JAVA://org.springframework.beans.factory.BeanFactory&#10;ApplicationContextAwareProcessor&#9;PSI&#9;JAVA://org.springframework.context.support.ApplicationContextAwareProcessor&#10;CachedThreadPool&#9;PSI&#9;JAVA://java.util.concurrent.Executors#newCachedThreadPool&#10;SingleThreadExecutor&#9;PSI&#9;JAVA://io.netty.util.concurrent.SingleThreadEventExecutor&#10;ConcurrentHashMap&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap&#10;AbstractQueuedSynchronizer&#9;PSI&#9;JAVA://java.util.concurrent.locks.AbstractQueuedSynchronizer&#10;logImpl&#9;PSI&#9;JAVA://org.apache.ibatis.logging.LogFactoryTest#shouldReadLogImplFromSettings&#10;XmlBeanDefinitionReader&#9;PSI&#9;JAVA://org.springframework.beans.factory.xml.XmlBeanDefinitionReader&#10;BeanDefinitionMap&#9;PSI&#9;JAVA://org.springframework.beans.factory.support.DefaultListableBeanFactory#beanDefinitionMap&#10;Resource&#9;FILE&#9;jar:///Users/poppy/.m2/repository/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar!/org/springframework/core/io/Resource.class&#10;ClassPa&#9;FILE&#9;file:///Users/poppy/projects/forks/spring-framework/spring-context/src/main/java/org/springframework/context/support/ClassPathXmlApplicationContext.java&#10;FileSystemResourceLoader&#9;PSI&#9;JAVA://org.springframework.core.io.FileSystemResourceLoader&#10;DefaultResourceLoader&#9;PSI&#9;JAVA://org.springframework.core.io.DefaultResourceLoader&#10;FileSystemResource&#9;PSI&#9;JAVA://org.springframework.core.io.FileSystemResource&#10;Aware&#9;PSI&#9;JAVA://org.springframework.context.ApplicationContextAware&#10;ClassPathXml&#9;PSI&#9;JAVA://org.springframework.context.support.ClassPathXmlApplicationContext&#10;AnnotationConfigApplicationContext&#9;PSI&#9;JAVA://org.springframework.context.annotation.AnnotationConfigApplicationContext&#10;Reen&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock&#10;Lock&#9;PSI&#9;JAVA://java.util.concurrent.locks.Lock&#10;compute&#9;PSI&#9;JAVA://com.sun.tools.javac.processing.JavacProcessingEnvironment.ComputeAnnotationSet" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true&#10;/Users/poppy/projects/my_learning/.gitignore" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554215251841" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554390856133" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/../forks/spring-framework/spring-core/src/test/java/org/springframework/core/io" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propDebugger" />
@@ -8264,10 +8192,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test1">
+  <component name="RunManager" selected="Application.UseXmlConfig">
+    <configuration name="AppTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.poppy.concurrent_tool.semaphore.AppTest" />
+      <module name="concurrency_learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.poppy.concurrent_tool.semaphore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test1" />
       <module name="jvm_learning" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UseCountDownLatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.poppy.concurrent_tool.UseCountDownLatch" />
+      <module name="concurrency_learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.poppy.concurrent_tool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -8281,38 +8235,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClassPathResourceTests.stringConstructorRaisesExceptionWithFullyQualifiedPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-core_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.springframework.core.io.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.springframework.core.io" />
-      <option name="MAIN_CLASS_NAME" value="org.springframework.core.io.ClassPathResourceTests" />
-      <option name="METHOD_NAME" value="stringConstructorRaisesExceptionWithFullyQualifiedPath" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConfigTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.poppy.ioc._6_import.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.poppy.ioc._6_import" />
-      <option name="MAIN_CLASS_NAME" value="com.poppy.ioc._6_import.ConfigTest" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -8338,17 +8260,17 @@
     <list>
       <item itemvalue="Application.UseXmlConfig" />
       <item itemvalue="Application.Test1" />
-      <item itemvalue="JUnit.ConfigTest.test2" />
-      <item itemvalue="JUnit.ClassPathResourceTests.stringConstructorRaisesExceptionWithFullyQualifiedPath" />
       <item itemvalue="JUnit.LogFactoryTest.shouldReadLogImplFromSettings" />
+      <item itemvalue="Application.UseCountDownLatch" />
+      <item itemvalue="Application.AppTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UseXmlConfig" />
+        <item itemvalue="Application.AppTest" />
+        <item itemvalue="Application.UseCountDownLatch" />
         <item itemvalue="Application.Test1" />
         <item itemvalue="JUnit.LogFactoryTest.shouldReadLogImplFromSettings" />
-        <item itemvalue="Application.UseXmlConfig" />
-        <item itemvalue="JUnit.ClassPathResourceTests.stringConstructorRaisesExceptionWithFullyQualifiedPath" />
-        <item itemvalue="JUnit.ConfigTest.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -8363,7 +8285,8 @@
       <option name="presentableId" value="Default" />
       <updated>1553613746919</updated>
       <workItem from="1553613750511" duration="50402000" />
-      <workItem from="1553935492367" duration="30332000" />
+      <workItem from="1553935492367" duration="30567000" />
+      <workItem from="1554269300071" duration="16550000" />
     </task>
     <servers />
   </component>
@@ -8400,7 +8323,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80734000" />
+    <option name="totallyTimeSpent" value="97519000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -8416,7 +8339,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Web" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49907234" visible="true" weight="0.26068377" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49907234" visible="true" weight="0.16910867" />
       <window_info id="Structure" order="2" sideWeight="0.5009276" side_tool="true" weight="0.22161172" />
       <window_info id="Designer" order="3" />
       <window_info id="Image Layers" order="4" />
@@ -8428,18 +8351,17 @@
       <window_info anchor="bottom" id="Build" order="2" weight="0.32959184" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.45" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.4030612" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.5367347" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.21530612" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.3479592" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" weight="0.32959184" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Statistic" order="12" />
-      <window_info anchor="bottom" id="Terminal" order="13" weight="0.3234694" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="13" visible="true" weight="0.19489796" />
       <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50061053" side_tool="true" weight="0.32959184" />
-      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.4993895" weight="0.51428574" />
-      <window_info anchor="right" id="jclasslib" visible="true" weight="0.32967034" />
+      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.4993895" weight="0.28163266" />
       <window_info anchor="right" id="Gradle" order="0" />
       <window_info anchor="right" id="Bean Validation" order="1" />
       <window_info anchor="right" id="JSF" order="2" />
@@ -8452,6 +8374,7 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Palette&#9;" order="10" />
       <window_info anchor="right" id="Maven Projects" order="11" />
+      <window_info anchor="right" id="jclasslib" order="12" visible="true" weight="0.32967034" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -8487,11 +8410,20 @@
           <properties />
           <option name="timeStamp" value="25" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/concurrency_learning/src/main/java/com/poppy/concurrent_tool/semaphore/DBPoolSemaphore.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
         <watch expression="parser" language="JAVA" />
+      </configuration>
+      <configuration name="Application">
+        <watch expression="getParent()" />
       </configuration>
     </watches-manager>
   </component>
@@ -8505,176 +8437,198 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE.jar!/org/springframework/beans/factory/xml/XmlBeanDefinitionReader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="253" column="38" selection-start-line="253" selection-start-column="38" selection-end-line="253" selection-end-column="38" />
-          <folding>
-            <element signature="e#3722#3723#0" expanded="true" />
-            <element signature="e#3764#3765#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE.jar!/org/springframework/beans/factory/xml/DefaultBeanDefinitionDocumentReader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="109" selection-start-line="109" selection-end-line="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/xml/BeanDefinitionDocumentReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/xml/XmlReaderContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="60" column="11" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_learning/src/main/java/com/poppy/ioc/_2_config_mode/UseXmlConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanDefinitionReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="258" selection-start-line="258" selection-end-line="258" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/context/support/AbstractXmlApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="94" selection-start-line="94" selection-end-line="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/context/support/AbstractRefreshableApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="140" selection-start-line="140" selection-end-line="140" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-780">
-          <caret line="684" selection-start-line="684" selection-end-line="684" />
-          <folding>
-            <element signature="e#12824#12825#0" expanded="true" />
-            <element signature="e#12863#12864#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/xml/XmlBeanDefinitionReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="512" column="38" selection-start-line="512" selection-start-column="38" selection-end-line="512" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/xml/DefaultBeanDefinitionDocumentReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="157" column="66" selection-start-line="157" selection-start-column="66" selection-end-line="157" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/xml/BeanDefinitionParserDelegate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4526">
-          <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_learning/src/main/java/com/poppy/ioc/_4_conditional/ConditionConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_learning/src/main/java/com/poppy/ioc/_4_conditional/LinCondition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_learning/src/main/java/com/poppy/ioc/_6_import/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_learning/src/main/java/com/poppy/ioc/_6_import/CustomFactoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_learning/src/main/java/com/poppy/ioc/_6_import/CustomImportBeanDefinitionRegistrar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="921" column="9" selection-start-line="920" selection-start-column="65" selection-end-line="921" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
-          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/org.apache.ibatis.logging.LogFactory">
+    <entry file="uml://JAVA/org.springframework.beans.factory.BeanFactory">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
           <ID>JAVA</ID>
-          <OriginalElement>org.apache.ibatis.logging.LogFactory</OriginalElement>
+          <OriginalElement>org.springframework.beans.factory.BeanFactory</OriginalElement>
           <nodes>
-            <node x="0.0" y="0.0">org.apache.ibatis.logging.LogFactory</node>
+            <node x="0.0" y="0.0">org.springframework.beans.factory.BeanFactory</node>
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-307.0" y="-94.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-303.0" y="32.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../forks/spring-framework/spring-beans/src/main/java/org/springframework/beans/factory/BeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="143" column="55" lean-forward="true" selection-start-line="143" selection-start-column="55" selection-end-line="143" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../forks/spring-framework/spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="123" column="56" selection-start-line="123" selection-start-column="56" selection-end-line="123" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/org.springframework.beans.factory.support.DefaultListableBeanFactory">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.springframework.beans.factory.support.DefaultListableBeanFactory</OriginalElement>
+          <nodes>
+            <node x="277.3749999999999" y="158.0">org.springframework.beans.factory.HierarchicalBeanFactory</node>
+            <node x="623.2836419753086" y="158.0">org.springframework.beans.factory.support.DefaultSingletonBeanRegistry</node>
+            <node x="713.0336419753086" y="79.0">org.springframework.core.SimpleAliasRegistry</node>
+            <node x="438.1249999999999" y="79.0">org.springframework.beans.factory.config.SingletonBeanRegistry</node>
+            <node x="1004.5336419753086" y="395.0">java.lang.SuppressWarnings</node>
+            <node x="296.83333333333326" y="316.0">org.springframework.beans.factory.config.AutowireCapableBeanFactory</node>
+            <node x="900.0336419753086" y="79.0">org.springframework.beans.factory.support.BeanDefinitionRegistry</node>
+            <node x="136.0" y="395.0">org.springframework.beans.factory.config.ConfigurableListableBeanFactory</node>
+            <node x="0.0" y="395.0">java.io.Serializable</node>
+            <node x="626.2836419753086" y="237.0">org.springframework.beans.factory.support.FactoryBeanRegistrySupport</node>
+            <node x="462.97037037037035" y="395.0">org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory</node>
+            <node x="838.2996913580246" y="0.0">org.springframework.core.AliasRegistry</node>
+            <node x="585.4703703703703" y="316.0">org.springframework.beans.factory.support.AbstractBeanFactory</node>
+            <node x="228.33333333333326" y="79.0">org.springframework.beans.factory.BeanFactory</node>
+            <node x="501.1249999999999" y="474.0">org.springframework.beans.factory.support.DefaultListableBeanFactory</node>
+            <node x="328.3749999999999" y="237.0">org.springframework.beans.factory.config.ConfigurableBeanFactory</node>
+            <node x="39.779629629629426" y="158.0">org.springframework.beans.factory.ListableBeanFactory</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.springframework.core.SimpleAliasRegistry" target="org.springframework.core.AliasRegistry">
+              <point x="0.0" y="-14.5" />
+              <point x="796.5336419753086" y="54.0" />
+              <point x="870.0496913580246" y="54.0" />
+              <point x="-31.75" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.HierarchicalBeanFactory" target="org.springframework.beans.factory.BeanFactory">
+              <point x="0.0" y="-14.5" />
+              <point x="375.8749999999999" y="133.0" />
+              <point x="332.4999999999999" y="133.0" />
+              <point x="41.66666666666663" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.support.DefaultListableBeanFactory" target="java.lang.SuppressWarnings">
+              <point x="86.39999999999998" y="-14.5" />
+              <point x="695.5249999999999" y="454.0" />
+              <point x="1087.0336419753085" y="454.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory" target="org.springframework.beans.factory.config.AutowireCapableBeanFactory">
+              <point x="-70.5" y="-14.5" />
+              <point x="533.4703703703703" y="370.0" />
+              <point x="468.58333333333326" y="370.0" />
+              <point x="57.25" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.config.AutowireCapableBeanFactory" target="org.springframework.beans.factory.BeanFactory">
+              <point x="0.0" y="-14.5" />
+              <point x="411.33333333333326" y="286.0" />
+              <point x="266.8749999999999" y="286.0" />
+              <point x="266.8749999999999" y="133.0" />
+              <point x="290.83333333333326" y="133.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.config.ConfigurableListableBeanFactory" target="org.springframework.beans.factory.config.AutowireCapableBeanFactory">
+              <point x="83.66666666666663" y="-14.5" />
+              <point x="345.16666666666663" y="370.0" />
+              <point x="354.08333333333326" y="370.0" />
+              <point x="-57.25" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.support.FactoryBeanRegistrySupport" target="org.springframework.beans.factory.support.DefaultSingletonBeanRegistry">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.support.DefaultSingletonBeanRegistry" target="org.springframework.core.SimpleAliasRegistry">
+              <point x="57.75" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.config.ConfigurableListableBeanFactory" target="org.springframework.beans.factory.ListableBeanFactory">
+              <point x="-83.66666666666674" y="-14.5" />
+              <point x="177.83333333333326" y="370.0" />
+              <point x="125.77962962962948" y="370.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.ListableBeanFactory" target="org.springframework.beans.factory.BeanFactory">
+              <point x="0.0" y="-14.5" />
+              <point x="125.77962962962943" y="133.0" />
+              <point x="249.16666666666663" y="133.0" />
+              <point x="-41.66666666666663" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.config.ConfigurableListableBeanFactory" target="org.springframework.beans.factory.config.ConfigurableBeanFactory">
+              <point x="0.0" y="-14.5" />
+              <point x="261.5" y="370.0" />
+              <point x="257.97037037037035" y="370.0" />
+              <point x="257.97037037037035" y="296.0" />
+              <point x="379.3749999999999" y="296.0" />
+              <point x="-51.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.config.ConfigurableBeanFactory" target="org.springframework.beans.factory.config.SingletonBeanRegistry">
+              <point x="51.0" y="-14.5" />
+              <point x="481.3749999999999" y="212.0" />
+              <point x="484.8749999999999" y="212.0" />
+              <point x="-46.75" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.support.BeanDefinitionRegistry" target="org.springframework.core.AliasRegistry">
+              <point x="0.0" y="-14.5" />
+              <point x="994.0336419753086" y="54.0" />
+              <point x="933.5496913580246" y="54.0" />
+              <point x="31.75" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.support.DefaultSingletonBeanRegistry" target="org.springframework.beans.factory.config.SingletonBeanRegistry">
+              <point x="-57.75" y="-14.5" />
+              <point x="681.0336419753086" y="133.0" />
+              <point x="578.3749999999999" y="133.0" />
+              <point x="46.75" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.support.AbstractBeanFactory" target="org.springframework.beans.factory.support.FactoryBeanRegistrySupport">
+              <point x="44.5" y="-14.5" />
+              <point x="718.9703703703703" y="296.0" />
+              <point x="738.7836419753086" y="296.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory" target="org.springframework.beans.factory.support.AbstractBeanFactory">
+              <point x="70.5" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.support.DefaultListableBeanFactory" target="org.springframework.beans.factory.config.ConfigurableListableBeanFactory">
+              <point x="-43.200000000000045" y="-14.5" />
+              <point x="565.9249999999998" y="444.0" />
+              <point x="261.5" y="444.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.support.DefaultListableBeanFactory" target="java.io.Serializable">
+              <point x="-86.39999999999998" y="-14.5" />
+              <point x="522.7249999999999" y="454.0" />
+              <point x="58.0" y="454.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.support.AbstractBeanFactory" target="org.springframework.beans.factory.config.ConfigurableBeanFactory">
+              <point x="-44.5" y="-14.5" />
+              <point x="629.9703703703703" y="296.0" />
+              <point x="481.3749999999999" y="296.0" />
+              <point x="51.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.support.DefaultListableBeanFactory" target="org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory">
+              <point x="0.0" y="-14.5" />
+              <point x="609.1249999999999" y="454.0" />
+              <point x="603.9703703703703" y="454.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.config.ConfigurableBeanFactory" target="org.springframework.beans.factory.HierarchicalBeanFactory">
+              <point x="-51.0" y="-14.5" />
+              <point x="379.3749999999999" y="212.0" />
+              <point x="375.8749999999999" y="212.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.support.DefaultListableBeanFactory" target="org.springframework.beans.factory.support.BeanDefinitionRegistry">
+              <point x="43.200000000000045" y="-14.5" />
+              <point x="652.3249999999999" y="444.0" />
+              <point x="994.0336419753086" y="444.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="228.0" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
@@ -8682,34 +8636,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="uml://JAVA/org.apache.ibatis.logging.Log">
+    <entry file="uml://JAVA/org.springframework.beans.factory.config.BeanDefinition">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
           <ID>JAVA</ID>
-          <OriginalElement>org.apache.ibatis.logging.Log</OriginalElement>
+          <OriginalElement>org.springframework.beans.factory.config.BeanDefinition</OriginalElement>
           <nodes>
-            <node x="0.0" y="79.0">org.apache.ibatis.logging.slf4j.Slf4jImpl</node>
-            <node x="76.25" y="0.0">org.apache.ibatis.logging.Log</node>
-            <node x="120.0" y="79.0">org.apache.ibatis.logging.log4j.Log4jImpl</node>
+            <node x="89.625" y="158.0">org.springframework.beans.factory.support.RootBeanDefinition</node>
+            <node x="180.0" y="0.0">org.springframework.beans.BeanMetadataElement</node>
+            <node x="0.0" y="0.0">org.springframework.core.AttributeAccessor</node>
+            <node x="104.125" y="79.0">org.springframework.beans.factory.config.BeanDefinition</node>
           </nodes>
           <notes />
           <edges>
-            <edge source="org.apache.ibatis.logging.log4j.Log4jImpl" target="org.apache.ibatis.logging.Log">
+            <edge source="org.springframework.beans.factory.support.RootBeanDefinition" target="org.springframework.beans.factory.config.BeanDefinition">
               <point x="0.0" y="-14.5" />
-              <point x="173.5" y="54.0" />
-              <point x="129.5" y="54.0" />
-              <point x="17.75" y="14.5" />
+              <point x="0.0" y="14.5" />
             </edge>
-            <edge source="org.apache.ibatis.logging.slf4j.Slf4jImpl" target="org.apache.ibatis.logging.Log">
-              <point x="0.0" y="-14.5" />
-              <point x="50.0" y="54.0" />
-              <point x="94.0" y="54.0" />
-              <point x="-17.75" y="14.5" />
+            <edge source="org.springframework.beans.factory.support.RootBeanDefinition" target="org.springframework.core.AttributeAccessor">
+              <point x="-55.66666666666666" y="-14.5" />
+              <point x="117.45833333333334" y="133.0" />
+              <point x="56.45833333333334" y="133.0" />
+              <point x="56.45833333333334" y="54.0" />
+              <point x="40.0" y="54.0" />
+              <point x="-40.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.config.BeanDefinition" target="org.springframework.core.AttributeAccessor">
+              <point x="-34.5" y="-14.5" />
+              <point x="138.625" y="54.0" />
+              <point x="120.0" y="54.0" />
+              <point x="40.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.support.RootBeanDefinition" target="org.springframework.beans.BeanMetadataElement">
+              <point x="55.66666666666666" y="-14.5" />
+              <point x="228.79166666666666" y="133.0" />
+              <point x="293.95833333333337" y="133.0" />
+              <point x="293.95833333333337" y="54.0" />
+              <point x="318.75" y="54.0" />
+              <point x="46.25" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.config.BeanDefinition" target="org.springframework.beans.BeanMetadataElement">
+              <point x="34.5" y="-14.5" />
+              <point x="207.625" y="54.0" />
+              <point x="226.25" y="54.0" />
+              <point x="-46.25" y="14.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-330.0" y="-94.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-183.0" y="0.0" />
           <SelectedNodes>
-            <node>org.apache.ibatis.logging.log4j.Log4jImpl</node>
+            <node>org.springframework.beans.factory.support.RootBeanDefinition</node>
           </SelectedNodes>
           <Categories />
           <SCOPE>All</SCOPE>
@@ -8717,234 +8692,1181 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../forks/mybatis-3/src/main/java/org/apache/ibatis/logging/Log.java">
+    <entry file="file://$PROJECT_DIR$/../forks/spring-framework/spring-beans/src/main/java/org/springframework/beans/factory/config/BeanDefinition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        <state relative-caret-position="322">
+          <caret line="40" column="31" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../forks/mybatis-3/src/main/java/org/apache/ibatis/logging/jdbc/ConnectionLogger.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/context/support/FileSystemXmlApplicationContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+        <state relative-caret-position="302">
+          <caret line="141" column="16" selection-start-line="141" selection-start-column="16" selection-end-line="141" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../forks/mybatis-3/src/main/java/org/apache/ibatis/logging/jdbc/BaseJdbcLogger.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicBoolean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/logging/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="782" column="16" selection-start-line="782" selection-start-column="16" selection-end-line="782" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../forks/mybatis-3/src/main/java/org/apache/ibatis/logging/jdk14/Jdk14LoggingImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="50" column="10" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Category.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="337" column="16" selection-start-line="337" selection-start-column="16" selection-end-line="337" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar!/org/apache/log4j/Category.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-100">
-          <caret line="93" column="10" lean-forward="true" selection-start-line="93" selection-start-column="10" selection-end-line="93" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../forks/mybatis-3/src/main/java/org/apache/ibatis/logging/log4j/Log4jImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../forks/mybatis-3/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="277" column="28" selection-start-line="277" selection-start-column="28" selection-end-line="277" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/reflect/Constructor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="405" column="13" selection-start-line="405" selection-start-column="13" selection-end-line="405" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../forks/mybatis-3/src/main/java/org/apache/ibatis/logging/LogFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="51" column="33" lean-forward="true" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
+        <state relative-caret-position="124">
+          <caret line="122" column="47" lean-forward="true" selection-start-line="122" selection-start-column="47" selection-end-line="122" selection-end-column="47" />
           <folding>
-            <element signature="e#1441#1442#0" expanded="true" />
-            <element signature="e#1482#1483#0" expanded="true" />
+            <element signature="e#3250#3251#0" expanded="true" />
+            <element signature="e#3290#3291#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../forks/mybatis-3/src/main/java/org/apache/ibatis/io/ClassLoaderWrapper.java">
+    <entry file="file://$PROJECT_DIR$/../forks/spring-framework/spring-jcl/src/main/java/org/apache/commons/logging/Log.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        <state relative-caret-position="425">
+          <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../forks/mybatis-3/src/main/java/org/apache/ibatis/io/Resources.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="163" selection-start-line="163" selection-end-line="163" />
+    <entry file="uml://JAVA/org.springframework.context.support.ClassPathXmlApplicationContext">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.springframework.context.support.ClassPathXmlApplicationContext</OriginalElement>
+          <nodes>
+            <node x="411.24999999999994" y="79.0">org.springframework.beans.factory.HierarchicalBeanFactory</node>
+            <node x="1140.4931972789116" y="563.0">org.springframework.context.support.AbstractXmlApplicationContext</node>
+            <node x="1218.4931972789116" y="326.0">org.springframework.beans.factory.Aware</node>
+            <node x="1643.4906462585034" y="79.0">java.lang.AutoCloseable</node>
+            <node x="1025.4931972789116" y="405.0">org.springframework.beans.factory.InitializingBean</node>
+            <node x="850.6181972789116" y="0.0">java.lang.FunctionalInterface</node>
+            <node x="199.75" y="326.0">org.springframework.beans.factory.support.AbstractBeanFactory</node>
+            <node x="1800.4906462585034" y="79.0">org.springframework.core.io.DefaultResourceLoader</node>
+            <node x="1445.1181972789116" y="79.0">org.springframework.core.env.EnvironmentCapable</node>
+            <node x="1226.4931972789116" y="247.0">org.springframework.context.ConfigurableApplicationContext</node>
+            <node x="829.1181972789116" y="79.0">org.springframework.context.ApplicationEventPublisher</node>
+            <node x="1136.4931972789116" y="642.0">org.springframework.context.support.ClassPathXmlApplicationContext</node>
+            <node x="1185.4931972789116" y="405.0">org.springframework.beans.factory.BeanNameAware</node>
+            <node x="1280.1181972789116" y="79.0">org.springframework.context.MessageSource</node>
+            <node x="56.5" y="168.0">org.springframework.beans.factory.support.DefaultSingletonBeanRegistry</node>
+            <node x="1485.625" y="0.0">org.springframework.core.io.ResourceLoader</node>
+            <node x="125.25" y="79.0">org.springframework.beans.factory.config.SingletonBeanRegistry</node>
+            <node x="996.6249999999999" y="168.0">org.springframework.context.ApplicationContext</node>
+            <node x="59.5" y="247.0">org.springframework.beans.factory.support.FactoryBeanRegistrySupport</node>
+            <node x="62.5" y="405.0">org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory</node>
+            <node x="1095.4931972789116" y="484.0">org.springframework.context.support.AbstractRefreshableConfigApplicationContext</node>
+            <node x="1325.5416666666665" y="168.0">org.springframework.context.Lifecycle</node>
+            <node x="1393.4931972789116" y="326.0">org.springframework.context.support.AbstractApplicationContext</node>
+            <node x="202.58078231292507" y="0.0">org.springframework.beans.factory.BeanFactory</node>
+            <node x="1658.4906462585034" y="168.0">java.io.Closeable</node>
+            <node x="189.36819727891157" y="484.0">org.springframework.beans.factory.support.DefaultListableBeanFactory</node>
+            <node x="1058.1181972789116" y="79.0">org.springframework.core.io.support.ResourcePatternResolver</node>
+            <node x="307.49999999999994" y="168.0">org.springframework.beans.factory.config.ConfigurableBeanFactory</node>
+            <node x="1357.4931972789116" y="405.0">org.springframework.context.support.AbstractRefreshableApplicationContext</node>
+            <node x="628.25" y="79.0">org.springframework.beans.factory.ListableBeanFactory</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.springframework.context.support.AbstractRefreshableConfigApplicationContext" target="org.springframework.context.support.AbstractRefreshableApplicationContext">
+              <point x="110.66666666666663" y="-14.5" />
+              <point x="1372.1598639455783" y="464.0" />
+              <point x="1502.9931972789116" y="464.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.HierarchicalBeanFactory" target="org.springframework.beans.factory.BeanFactory">
+              <point x="0.0" y="-14.5" />
+              <point x="509.74999999999994" y="59.0" />
+              <point x="280.70578231292507" y="59.0" />
+              <point x="15.625" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.support.DefaultListableBeanFactory" target="org.springframework.beans.factory.config.ConfigurableBeanFactory">
+              <point x="27.0" y="-14.5" />
+              <point x="324.36819727891157" y="454.0" />
+              <point x="414.99999999999994" y="454.0" />
+              <point x="414.99999999999994" y="222.0" />
+              <point x="460.49999999999994" y="222.0" />
+              <point x="51.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.support.FactoryBeanRegistrySupport" target="org.springframework.beans.factory.support.DefaultSingletonBeanRegistry">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.ListableBeanFactory" target="org.springframework.beans.factory.BeanFactory">
+              <point x="0.0" y="-14.5" />
+              <point x="714.25" y="49.0" />
+              <point x="311.95578231292507" y="49.0" />
+              <point x="46.875" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.support.DefaultListableBeanFactory" target="org.springframework.beans.factory.ListableBeanFactory">
+              <point x="81.0" y="-14.5" />
+              <point x="378.36819727891157" y="464.0" />
+              <point x="671.25" y="464.0" />
+              <point x="-43.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.config.ConfigurableBeanFactory" target="org.springframework.beans.factory.config.SingletonBeanRegistry">
+              <point x="-51.0" y="-14.5" />
+              <point x="358.49999999999994" y="148.0" />
+              <point x="265.5" y="148.0" />
+              <point x="46.75" y="14.5" />
+            </edge>
+            <edge source="org.springframework.core.io.DefaultResourceLoader" target="org.springframework.core.io.ResourceLoader">
+              <point x="0.0" y="-14.5" />
+              <point x="1895.9906462585034" y="59.0" />
+              <point x="1595.875" y="59.0" />
+              <point x="36.75" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory" target="org.springframework.beans.factory.BeanFactory">
+              <point x="-70.5" y="-14.5" />
+              <point x="133.0" y="380.0" />
+              <point x="46.0" y="380.0" />
+              <point x="46.0" y="59.0" />
+              <point x="249.45578231292507" y="59.0" />
+              <point x="-15.625" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.support.DefaultSingletonBeanRegistry" target="org.springframework.beans.factory.config.SingletonBeanRegistry">
+              <point x="0.0" y="-14.5" />
+              <point x="-46.75" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.support.DefaultListableBeanFactory" target="org.springframework.beans.factory.BeanFactory">
+              <point x="-81.0" y="-14.5" />
+              <point x="216.36819727891157" y="464.0" />
+              <point x="0.0" y="464.0" />
+              <point x="0.0" y="49.0" />
+              <point x="218.20578231292507" y="49.0" />
+              <point x="-46.875" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.context.ApplicationEventPublisher">
+              <point x="-13.833333333333371" y="-14.5" />
+              <point x="1065.7916666666665" y="128.0" />
+              <point x="933.6181972789116" y="128.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.context.MessageSource">
+              <point x="41.5" y="-14.5" />
+              <point x="1121.125" y="138.0" />
+              <point x="1352.6181972789116" y="138.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.support.AbstractBeanFactory" target="org.springframework.beans.factory.config.ConfigurableBeanFactory">
+              <point x="44.5" y="-14.5" />
+              <point x="333.25" y="301.0" />
+              <point x="381.99999999999994" y="301.0" />
+              <point x="381.99999999999994" y="222.0" />
+              <point x="358.49999999999994" y="222.0" />
+              <point x="-51.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.support.ClassPathXmlApplicationContext" target="org.springframework.context.support.AbstractXmlApplicationContext">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.support.AbstractApplicationContext" target="org.springframework.context.ConfigurableApplicationContext">
+              <point x="-54.75" y="-14.5" />
+              <point x="1448.2431972789116" y="301.0" />
+              <point x="1348.9931972789116" y="301.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.support.AbstractXmlApplicationContext" target="org.springframework.context.support.AbstractRefreshableConfigApplicationContext">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.core.env.EnvironmentCapable">
+              <point x="69.16666666666663" y="-14.5" />
+              <point x="1148.7916666666665" y="148.0" />
+              <point x="1532.6181972789116" y="148.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.support.AbstractRefreshableConfigApplicationContext" target="org.springframework.beans.factory.BeanNameAware">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.core.io.support.ResourcePatternResolver" target="org.springframework.core.io.ResourceLoader">
+              <point x="0.0" y="-14.5" />
+              <point x="1159.1181972789116" y="59.0" />
+              <point x="1522.375" y="59.0" />
+              <point x="-36.75" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.support.AbstractApplicationContext" target="org.springframework.core.io.DefaultResourceLoader">
+              <point x="54.75" y="-14.5" />
+              <point x="1557.7431972789116" y="301.0" />
+              <point x="1895.9906462585034" y="301.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.support.AbstractRefreshableConfigApplicationContext" target="org.springframework.beans.factory.InitializingBean">
+              <point x="-110.66666666666669" y="-14.5" />
+              <point x="1150.8265306122448" y="464.0" />
+              <point x="1095.4931972789116" y="464.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.support.AbstractRefreshableApplicationContext" target="org.springframework.context.support.AbstractApplicationContext">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.BeanNameAware" target="org.springframework.beans.factory.Aware">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.ConfigurableApplicationContext" target="org.springframework.context.ApplicationContext">
+              <point x="-81.66666666666674" y="-14.5" />
+              <point x="1267.3265306122448" y="222.0" />
+              <point x="1079.625" y="222.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.beans.factory.HierarchicalBeanFactory">
+              <point x="-69.16666666666674" y="-14.5" />
+              <point x="1010.4583333333331" y="148.0" />
+              <point x="559.0" y="148.0" />
+              <point x="49.25" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.support.AbstractBeanFactory" target="org.springframework.beans.factory.support.FactoryBeanRegistrySupport">
+              <point x="-44.5" y="-14.5" />
+              <point x="244.25" y="301.0" />
+              <point x="172.0" y="301.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory" target="org.springframework.beans.factory.support.AbstractBeanFactory">
+              <point x="70.5" y="-14.5" />
+              <point x="274.0" y="380.0" />
+              <point x="288.75" y="380.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.ConfigurableApplicationContext" target="java.io.Closeable">
+              <point x="81.66666666666663" y="-14.5" />
+              <point x="1430.6598639455783" y="222.0" />
+              <point x="1711.9906462585034" y="222.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.io.Closeable" target="java.lang.AutoCloseable">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.beans.factory.ListableBeanFactory">
+              <point x="-41.5" y="-14.5" />
+              <point x="1038.125" y="138.0" />
+              <point x="757.25" y="138.0" />
+              <point x="43.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.ApplicationEventPublisher" target="java.lang.FunctionalInterface">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.support.DefaultListableBeanFactory" target="org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory">
+              <point x="-27.0" y="-14.5" />
+              <point x="270.36819727891157" y="454.0" />
+              <point x="203.5" y="454.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.core.io.support.ResourcePatternResolver">
+              <point x="13.833333333333371" y="-14.5" />
+              <point x="1093.4583333333333" y="128.0" />
+              <point x="1159.1181972789116" y="128.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.config.ConfigurableBeanFactory" target="org.springframework.beans.factory.HierarchicalBeanFactory">
+              <point x="51.0" y="-14.5" />
+              <point x="-49.25" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.ConfigurableApplicationContext" target="org.springframework.context.Lifecycle">
+              <point x="0.0" y="-14.5" />
+              <point x="1348.9931972789116" y="222.0" />
+              <point x="1376.0416666666665" y="222.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.46744602171159666" x="1252.6852218653712" y="272.600179550137" />
+          <SelectedNodes>
+            <node>org.springframework.context.MessageSource</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../forks/mybatis-3/src/test/java/org/apache/ibatis/logging/LogFactoryTest.java">
+    <entry file="file://$PROJECT_DIR$/../forks/spring-framework/spring-core/src/main/java/org/springframework/core/env/ConfigurableEnvironment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="93" selection-start-line="93" selection-end-line="93" />
+        <state relative-caret-position="409">
+          <caret line="71" column="17" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../forks/mybatis-3/src/main/java/org/apache/ibatis/builder/xml/XMLMapperEntityResolver.java">
+    <entry file="file://$PROJECT_DIR$/../forks/spring-framework/spring-core/src/main/java/org/springframework/core/env/AbstractEnvironment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="450">
+          <caret line="59" column="79" selection-start-line="59" selection-start-column="79" selection-end-line="59" selection-end-column="79" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/jdk/xml/internal/JdkXmlUtils.class">
+    <entry file="file://$PROJECT_DIR$/../forks/spring-framework/spring-core/src/main/java/org/springframework/core/env/StandardEnvironment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        <state relative-caret-position="420">
+          <caret line="42" column="2" lean-forward="true" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/org/xml/sax/InputSource.java">
+    <entry file="file://$PROJECT_DIR$/../forks/spring-framework/spring-core/src/main/java/org/springframework/core/env/ConfigurablePropertyResolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="189" selection-start-line="189" selection-end-line="189" />
+        <state relative-caret-position="479">
+          <caret line="102" column="9" selection-start-line="102" selection-start-column="9" selection-end-line="102" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../forks/spring-framework/spring-web/src/main/java/org/springframework/web/context/support/AbstractRefreshableWebApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="214" lean-forward="true" selection-start-line="214" selection-end-line="214" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../forks/spring-framework/spring-beans/src/main/java/org/springframework/beans/factory/config/ConfigurableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="405" column="9" selection-start-line="405" selection-start-column="9" selection-end-line="405" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="271" column="6" selection-start-line="271" selection-start-column="6" selection-end-line="271" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../forks/spring-framework/spring-beans/src/main/java/org/springframework/beans/factory/support/DefaultListableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="1061" column="27" lean-forward="true" selection-start-line="1061" selection-start-column="27" selection-end-line="1061" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/org.springframework.context.support.AbstractApplicationContext">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.springframework.context.support.AbstractApplicationContext</OriginalElement>
+          <nodes>
+            <node x="229.0" y="79.0">org.springframework.beans.factory.HierarchicalBeanFactory</node>
+            <node x="1090.4722222222222" y="0.0">org.springframework.core.io.ResourceLoader</node>
+            <node x="1220.0" y="79.0">java.lang.AutoCloseable</node>
+            <node x="552.5" y="168.0">org.springframework.context.ApplicationContext</node>
+            <node x="1362.0" y="168.0">org.springframework.context.Lifecycle</node>
+            <node x="21.5" y="0.0">java.lang.FunctionalInterface</node>
+            <node x="1261.486111111111" y="326.0">org.springframework.context.support.AbstractApplicationContext</node>
+            <node x="1378.0" y="79.0">org.springframework.core.io.DefaultResourceLoader</node>
+            <node x="398.85185185185185" y="0.0">org.springframework.beans.factory.BeanFactory</node>
+            <node x="1025.0" y="79.0">org.springframework.core.env.EnvironmentCapable</node>
+            <node x="1147.7685185185185" y="247.0">org.springframework.context.ConfigurableApplicationContext</node>
+            <node x="1235.0" y="168.0">java.io.Closeable</node>
+            <node x="0.0" y="79.0">org.springframework.context.ApplicationEventPublisher</node>
+            <node x="638.0" y="79.0">org.springframework.core.io.support.ResourcePatternResolver</node>
+            <node x="446.0" y="79.0">org.springframework.beans.factory.ListableBeanFactory</node>
+            <node x="860.0" y="79.0">org.springframework.context.MessageSource</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.core.env.EnvironmentCapable">
+              <point x="69.16666666666663" y="-14.5" />
+              <point x="704.6666666666666" y="148.0" />
+              <point x="1112.5" y="148.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.core.io.support.ResourcePatternResolver" target="org.springframework.core.io.ResourceLoader">
+              <point x="0.0" y="-14.5" />
+              <point x="739.0" y="54.0" />
+              <point x="1127.2222222222222" y="54.0" />
+              <point x="-36.75" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.HierarchicalBeanFactory" target="org.springframework.beans.factory.BeanFactory">
+              <point x="0.0" y="-14.5" />
+              <point x="327.5" y="54.0" />
+              <point x="430.10185185185185" y="54.0" />
+              <point x="-31.25" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.support.AbstractApplicationContext" target="org.springframework.core.io.DefaultResourceLoader">
+              <point x="54.749999999999886" y="-14.5" />
+              <point x="1425.7361111111109" y="301.0" />
+              <point x="1473.5" y="301.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.ListableBeanFactory" target="org.springframework.beans.factory.BeanFactory">
+              <point x="0.0" y="-14.5" />
+              <point x="532.0" y="54.0" />
+              <point x="492.60185185185185" y="54.0" />
+              <point x="31.25" y="14.5" />
+            </edge>
+            <edge source="org.springframework.core.io.DefaultResourceLoader" target="org.springframework.core.io.ResourceLoader">
+              <point x="0.0" y="-14.5" />
+              <point x="1473.5" y="54.0" />
+              <point x="1200.7222222222222" y="54.0" />
+              <point x="36.75" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.ConfigurableApplicationContext" target="org.springframework.context.ApplicationContext">
+              <point x="-81.66666666666669" y="-14.5" />
+              <point x="1188.6018518518517" y="222.0" />
+              <point x="635.5" y="222.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.beans.factory.HierarchicalBeanFactory">
+              <point x="-41.5" y="-14.5" />
+              <point x="594.0" y="138.0" />
+              <point x="327.5" y="138.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.ConfigurableApplicationContext" target="java.io.Closeable">
+              <point x="0.0" y="-14.5" />
+              <point x="1270.2685185185185" y="222.0" />
+              <point x="1288.5" y="222.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.context.ApplicationEventPublisher">
+              <point x="-69.16666666666669" y="-14.5" />
+              <point x="566.3333333333333" y="148.0" />
+              <point x="104.5" y="148.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.io.Closeable" target="java.lang.AutoCloseable">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.beans.factory.ListableBeanFactory">
+              <point x="-13.833333333333371" y="-14.5" />
+              <point x="621.6666666666666" y="128.0" />
+              <point x="532.0" y="128.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.context.MessageSource">
+              <point x="41.5" y="-14.5" />
+              <point x="677.0" y="138.0" />
+              <point x="932.5" y="138.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.ApplicationEventPublisher" target="java.lang.FunctionalInterface">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.core.io.support.ResourcePatternResolver">
+              <point x="13.833333333333371" y="-14.5" />
+              <point x="649.3333333333334" y="128.0" />
+              <point x="739.0" y="128.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.support.AbstractApplicationContext" target="org.springframework.context.ConfigurableApplicationContext">
+              <point x="-54.750000000000114" y="-14.5" />
+              <point x="1316.2361111111109" y="301.0" />
+              <point x="1270.2685185185185" y="301.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.ConfigurableApplicationContext" target="org.springframework.context.Lifecycle">
+              <point x="81.66666666666663" y="-14.5" />
+              <point x="1351.9351851851852" y="222.0" />
+              <point x="1412.5" y="222.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.7841409691629956" x="296.0674157303371" y="108.63483146067415" />
+          <SelectedNodes>
+            <node>org.springframework.context.support.AbstractApplicationContext</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../forks/spring-framework/spring-context/src/main/java/org/springframework/context/support/AbstractRefreshableApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="173" column="49" selection-start-line="173" selection-start-column="49" selection-end-line="173" selection-end-column="49" />
           <folding>
-            <element signature="e#4635#4636#0" expanded="true" />
-            <element signature="e#4686#4687#0" expanded="true" />
-            <element signature="e#5458#5459#0" expanded="true" />
-            <element signature="e#9612#9613#0" expanded="true" />
-            <element signature="e#9666#9667#0" expanded="true" />
+            <element signature="e#0#9910#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/com/sun/org/apache/xerces/internal/parsers/DOMParser.java">
+    <entry file="file://$PROJECT_DIR$/../forks/spring-framework/spring-beans/src/main/java/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-379">
-          <caret line="230" column="16" selection-start-line="230" selection-start-column="16" selection-end-line="230" selection-end-column="16" />
+        <state relative-caret-position="228">
+          <caret line="490" column="16" selection-start-line="490" selection-start-column="16" selection-end-line="490" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../forks/mybatis-3/src/main/java/org/apache/ibatis/session/SqlSessionFactoryBuilder.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="e#1186#1187#0" expanded="true" />
-            <element signature="e#1228#1229#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="234">
+          <caret line="185" selection-start-line="185" selection-end-line="185" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/org/xml/sax/helpers/DefaultHandler.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar!/org/springframework/core/Constants.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
+        <state relative-caret-position="465">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar!/org/springframework/util/ClassUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
           <caret line="82" selection-start-line="82" selection-end-line="82" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/org/xml/sax/helpers/LocatorImpl.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar!/org/springframework/core/io/DefaultResourceLoader.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../forks/mybatis-3/src/main/java/org/apache/ibatis/parsing/XPathParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="248" selection-start-line="248" selection-end-line="248" />
+        <state relative-caret-position="210">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
-            <element signature="e#7548#7549#0" expanded="true" />
-            <element signature="e#7595#7596#0" expanded="true" />
+            <element signature="e#963#964#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/com/sun/org/apache/xerces/internal/jaxp/DocumentBuilderImpl.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar!/org/springframework/core/io/ResourceLoader.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="332" column="51" selection-start-line="332" selection-start-column="51" selection-end-line="332" selection-end-column="51" />
+        <state relative-caret-position="90">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../forks/mybatis-3/src/main/java/org/apache/ibatis/builder/BaseBuilder.java">
+    <entry file="uml://JAVA/org.springframework.core.io.ResourceLoader">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.springframework.core.io.ResourceLoader</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">org.springframework.core.io.ResourceLoader</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-309.5" y="-39.5" />
+          <SelectedNodes>
+            <node>org.springframework.core.io.ResourceLoader</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/org.springframework.context.annotation.AnnotationConfigApplicationContext">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.springframework.context.annotation.AnnotationConfigApplicationContext</OriginalElement>
+          <nodes>
+            <node x="1022.0" y="79.0">org.springframework.beans.factory.HierarchicalBeanFactory</node>
+            <node x="130.25" y="0.0">org.springframework.core.io.ResourceLoader</node>
+            <node x="1431.0" y="79.0">java.lang.AutoCloseable</node>
+            <node x="1226.1666666666667" y="326.0">org.springframework.beans.factory.support.BeanDefinitionRegistry</node>
+            <node x="708.5" y="168.0">org.springframework.context.ApplicationContext</node>
+            <node x="651.893115942029" y="484.0">org.springframework.context.annotation.AnnotationConfigApplicationContext</node>
+            <node x="798.643115942029" y="405.0">org.springframework.context.support.GenericApplicationContext</node>
+            <node x="1058.695652173913" y="168.0">org.springframework.context.Lifecycle</node>
+            <node x="1256.6666666666667" y="247.0">org.springframework.core.AliasRegistry</node>
+            <node x="814.5" y="0.0">java.lang.FunctionalInterface</node>
+            <node x="665.268115942029" y="326.0">org.springframework.context.support.AbstractApplicationContext</node>
+            <node x="0.0" y="79.0">org.springframework.core.io.DefaultResourceLoader</node>
+            <node x="1160.25" y="0.0">org.springframework.beans.factory.BeanFactory</node>
+            <node x="598.0" y="79.0">org.springframework.core.env.EnvironmentCapable</node>
+            <node x="991.6666666666666" y="247.0">org.springframework.context.ConfigurableApplicationContext</node>
+            <node x="1446.0" y="168.0">java.io.Closeable</node>
+            <node x="793.0" y="79.0">org.springframework.context.ApplicationEventPublisher</node>
+            <node x="211.0" y="79.0">org.springframework.core.io.support.ResourcePatternResolver</node>
+            <node x="570.643115942029" y="405.0">org.springframework.context.annotation.AnnotationConfigRegistry</node>
+            <node x="1239.0" y="79.0">org.springframework.beans.factory.ListableBeanFactory</node>
+            <node x="432.99999999999994" y="79.0">org.springframework.context.MessageSource</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.core.env.EnvironmentCapable">
+              <point x="-13.833333333333371" y="-14.5" />
+              <point x="777.6666666666665" y="128.0" />
+              <point x="685.5" y="128.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.annotation.AnnotationConfigApplicationContext" target="org.springframework.context.annotation.AnnotationConfigRegistry">
+              <point x="-69.0" y="-14.5" />
+              <point x="720.893115942029" y="459.0" />
+              <point x="674.643115942029" y="459.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.core.io.support.ResourcePatternResolver" target="org.springframework.core.io.ResourceLoader">
+              <point x="0.0" y="-14.5" />
+              <point x="312.0" y="54.0" />
+              <point x="240.5" y="54.0" />
+              <point x="36.75" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.HierarchicalBeanFactory" target="org.springframework.beans.factory.BeanFactory">
+              <point x="0.0" y="-14.5" />
+              <point x="1120.5" y="54.0" />
+              <point x="1191.5" y="54.0" />
+              <point x="-31.25" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.support.AbstractApplicationContext" target="org.springframework.core.io.DefaultResourceLoader">
+              <point x="-54.75" y="-14.5" />
+              <point x="720.018115942029" y="301.0" />
+              <point x="95.5" y="301.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.annotation.AnnotationConfigApplicationContext" target="org.springframework.context.support.GenericApplicationContext">
+              <point x="69.0" y="-14.5" />
+              <point x="858.893115942029" y="459.0" />
+              <point x="905.143115942029" y="459.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.support.GenericApplicationContext" target="org.springframework.context.support.AbstractApplicationContext">
+              <point x="-53.25" y="-14.5" />
+              <point x="851.893115942029" y="380.0" />
+              <point x="774.768115942029" y="380.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.ListableBeanFactory" target="org.springframework.beans.factory.BeanFactory">
+              <point x="0.0" y="-14.5" />
+              <point x="1325.0" y="54.0" />
+              <point x="1254.0" y="54.0" />
+              <point x="31.25" y="14.5" />
+            </edge>
+            <edge source="org.springframework.core.io.DefaultResourceLoader" target="org.springframework.core.io.ResourceLoader">
+              <point x="0.0" y="-14.5" />
+              <point x="95.5" y="54.0" />
+              <point x="167.0" y="54.0" />
+              <point x="-36.75" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.ConfigurableApplicationContext" target="org.springframework.context.ApplicationContext">
+              <point x="-81.66666666666674" y="-14.5" />
+              <point x="1032.5" y="222.0" />
+              <point x="791.5" y="222.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.support.BeanDefinitionRegistry" target="org.springframework.core.AliasRegistry">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.beans.factory.HierarchicalBeanFactory">
+              <point x="41.5" y="-14.5" />
+              <point x="833.0" y="138.0" />
+              <point x="1120.5" y="138.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.ConfigurableApplicationContext" target="java.io.Closeable">
+              <point x="81.66666666666674" y="-14.5" />
+              <point x="1195.8333333333335" y="222.0" />
+              <point x="1499.5" y="222.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.context.ApplicationEventPublisher">
+              <point x="13.833333333333371" y="-14.5" />
+              <point x="805.3333333333333" y="128.0" />
+              <point x="897.5" y="128.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.io.Closeable" target="java.lang.AutoCloseable">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.beans.factory.ListableBeanFactory">
+              <point x="69.16666666666663" y="-14.5" />
+              <point x="860.6666666666665" y="148.0" />
+              <point x="1325.0" y="148.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.context.MessageSource">
+              <point x="-41.5" y="-14.5" />
+              <point x="750.0" y="138.0" />
+              <point x="505.49999999999994" y="138.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.ApplicationEventPublisher" target="java.lang.FunctionalInterface">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.core.io.support.ResourcePatternResolver">
+              <point x="-69.16666666666674" y="-14.5" />
+              <point x="722.3333333333333" y="148.0" />
+              <point x="312.0" y="148.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.support.AbstractApplicationContext" target="org.springframework.context.ConfigurableApplicationContext">
+              <point x="54.75" y="-14.5" />
+              <point x="829.518115942029" y="301.0" />
+              <point x="1114.1666666666665" y="301.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.support.GenericApplicationContext" target="org.springframework.beans.factory.support.BeanDefinitionRegistry">
+              <point x="53.25" y="-14.5" />
+              <point x="958.393115942029" y="380.0" />
+              <point x="1320.1666666666667" y="380.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.ConfigurableApplicationContext" target="org.springframework.context.Lifecycle">
+              <point x="0.0" y="-14.5" />
+              <point x="1114.1666666666665" y="222.0" />
+              <point x="1109.195652173913" y="222.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8570528967254408" x="306.0293901542983" y="212.0293901542983" />
+          <SelectedNodes>
+            <node>org.springframework.context.MessageSource</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="84" column="35" selection-start-line="84" selection-start-column="11" selection-end-line="84" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_learning/src/test/java/com/poppy/ioc/_2_config_mode/UseAnnoConfigTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_learning/src/main/java/com/poppy/ioc/_2_config_mode/UseAnnoConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/org.springframework.beans.factory.xml.XmlBeanDefinitionReader">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.springframework.beans.factory.xml.XmlBeanDefinitionReader</OriginalElement>
+          <nodes>
+            <node x="223.0" y="158.0">org.springframework.beans.factory.support.PropertiesBeanDefinitionReader</node>
+            <node x="0.0" y="158.0">org.springframework.beans.factory.xml.XmlBeanDefinitionReader</node>
+            <node x="231.75" y="0.0">org.springframework.beans.factory.support.BeanDefinitionReader</node>
+            <node x="36.75" y="0.0">org.springframework.core.env.EnvironmentCapable</node>
+            <node x="106.5" y="79.0">org.springframework.beans.factory.support.AbstractBeanDefinitionReader</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.springframework.beans.factory.support.PropertiesBeanDefinitionReader" target="org.springframework.beans.factory.support.AbstractBeanDefinitionReader">
+              <point x="0.0" y="-14.5" />
+              <point x="344.5" y="133.0" />
+              <point x="281.25" y="133.0" />
+              <point x="58.25" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.xml.XmlBeanDefinitionReader" target="org.springframework.beans.factory.support.AbstractBeanDefinitionReader">
+              <point x="0.0" y="-14.5" />
+              <point x="101.5" y="133.0" />
+              <point x="164.75" y="133.0" />
+              <point x="-58.25" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.support.AbstractBeanDefinitionReader" target="org.springframework.beans.factory.support.BeanDefinitionReader">
+              <point x="58.25" y="-14.5" />
+              <point x="281.25" y="54.0" />
+              <point x="321.75" y="54.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.support.AbstractBeanDefinitionReader" target="org.springframework.core.env.EnvironmentCapable">
+              <point x="-58.25" y="-14.5" />
+              <point x="164.75" y="54.0" />
+              <point x="124.25" y="54.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-253.0" y="39.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="208" selection-start-line="208" selection-end-line="208" />
+          <folding>
+            <element signature="e#8397#8398#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/context/support/AbstractRefreshableConfigApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+          <folding>
+            <element signature="e#2107#2108#0" expanded="true" />
+            <element signature="e#2127#2128#0" expanded="true" />
+            <element signature="e#4480#4481#0" expanded="true" />
+            <element signature="e#4544#4545#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/org.springframework.context.support.AbstractXmlApplicationContext">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.springframework.context.support.AbstractXmlApplicationContext</OriginalElement>
+          <nodes>
+            <node x="598.0" y="79.0">org.springframework.beans.factory.HierarchicalBeanFactory</node>
+            <node x="1040.75" y="642.0">org.springframework.context.support.FileSystemXmlApplicationContext</node>
+            <node x="910.75" y="563.0">org.springframework.context.support.AbstractXmlApplicationContext</node>
+            <node x="1015.1277777777777" y="326.0">org.springframework.beans.factory.Aware</node>
+            <node x="169.37777777777774" y="326.0">org.springframework.beans.factory.support.BeanDefinitionRegistry</node>
+            <node x="1431.0" y="79.0">java.lang.AutoCloseable</node>
+            <node x="1154.1277777777777" y="405.0">org.springframework.beans.factory.InitializingBean</node>
+            <node x="1223.5" y="0.0">java.lang.FunctionalInterface</node>
+            <node x="0.0" y="79.0">org.springframework.core.io.DefaultResourceLoader</node>
+            <node x="1007.0" y="79.0">org.springframework.core.env.EnvironmentCapable</node>
+            <node x="983.2166666666668" y="247.0">org.springframework.context.ConfigurableApplicationContext</node>
+            <node x="1202.0" y="79.0">org.springframework.context.ApplicationEventPublisher</node>
+            <node x="770.75" y="642.0">org.springframework.context.support.ClassPathXmlApplicationContext</node>
+            <node x="982.1277777777777" y="405.0">org.springframework.beans.factory.BeanNameAware</node>
+            <node x="433.00000000000006" y="79.0">org.springframework.context.MessageSource</node>
+            <node x="130.25" y="0.0">org.springframework.core.io.ResourceLoader</node>
+            <node x="728.8805555555557" y="168.0">org.springframework.context.ApplicationContext</node>
+            <node x="293.8777777777778" y="484.0">org.springframework.context.annotation.AnnotationConfigApplicationContext</node>
+            <node x="210.12777777777774" y="405.0">org.springframework.context.support.GenericApplicationContext</node>
+            <node x="865.75" y="484.0">org.springframework.context.support.AbstractRefreshableConfigApplicationContext</node>
+            <node x="1034.0500000000002" y="168.0">org.springframework.context.Lifecycle</node>
+            <node x="652.3777777777777" y="326.0">org.springframework.context.support.AbstractApplicationContext</node>
+            <node x="736.25" y="0.0">org.springframework.beans.factory.BeanFactory</node>
+            <node x="1446.0" y="168.0">java.io.Closeable</node>
+            <node x="211.0" y="79.0">org.springframework.core.io.support.ResourcePatternResolver</node>
+            <node x="443.1277777777778" y="405.0">org.springframework.context.annotation.AnnotationConfigRegistry</node>
+            <node x="671.1277777777777" y="405.0">org.springframework.context.support.AbstractRefreshableApplicationContext</node>
+            <node x="815.0" y="79.0">org.springframework.beans.factory.ListableBeanFactory</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.springframework.context.support.AbstractRefreshableConfigApplicationContext" target="org.springframework.context.support.AbstractRefreshableApplicationContext">
+              <point x="-110.66666666666674" y="-14.5" />
+              <point x="921.0833333333333" y="459.0" />
+              <point x="816.6277777777777" y="459.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.HierarchicalBeanFactory" target="org.springframework.beans.factory.BeanFactory">
+              <point x="0.0" y="-14.5" />
+              <point x="696.5" y="54.0" />
+              <point x="767.5" y="54.0" />
+              <point x="-31.25" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.support.GenericApplicationContext" target="org.springframework.context.support.AbstractApplicationContext">
+              <point x="53.25" y="-14.5" />
+              <point x="369.87777777777774" y="380.0" />
+              <point x="707.1277777777777" y="380.0" />
+              <point x="-54.75" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.ListableBeanFactory" target="org.springframework.beans.factory.BeanFactory">
+              <point x="0.0" y="-14.5" />
+              <point x="901.0" y="54.0" />
+              <point x="830.0" y="54.0" />
+              <point x="31.25" y="14.5" />
+            </edge>
+            <edge source="org.springframework.core.io.DefaultResourceLoader" target="org.springframework.core.io.ResourceLoader">
+              <point x="0.0" y="-14.5" />
+              <point x="95.5" y="54.0" />
+              <point x="167.0" y="54.0" />
+              <point x="-36.75" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.context.ApplicationEventPublisher">
+              <point x="69.16666666666663" y="-14.5" />
+              <point x="881.0472222222224" y="148.0" />
+              <point x="1306.5" y="148.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.context.MessageSource">
+              <point x="-41.5" y="-14.5" />
+              <point x="770.3805555555557" y="138.0" />
+              <point x="505.50000000000006" y="138.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.support.ClassPathXmlApplicationContext" target="org.springframework.context.support.AbstractXmlApplicationContext">
+              <point x="0.0" y="-14.5" />
+              <point x="895.75" y="617.0" />
+              <point x="971.25" y="617.0" />
+              <point x="-60.5" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.support.AbstractApplicationContext" target="org.springframework.context.ConfigurableApplicationContext">
+              <point x="54.75" y="-14.5" />
+              <point x="816.6277777777777" y="301.0" />
+              <point x="1105.7166666666667" y="301.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.support.GenericApplicationContext" target="org.springframework.beans.factory.support.BeanDefinitionRegistry">
+              <point x="-53.25" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.support.AbstractXmlApplicationContext" target="org.springframework.context.support.AbstractRefreshableConfigApplicationContext">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.core.env.EnvironmentCapable">
+              <point x="41.5" y="-14.5" />
+              <point x="853.3805555555557" y="138.0" />
+              <point x="1094.5" y="138.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.support.AbstractRefreshableConfigApplicationContext" target="org.springframework.beans.factory.BeanNameAware">
+              <point x="0.0" y="-14.5" />
+              <point x="1031.75" y="459.0" />
+              <point x="1058.1277777777777" y="459.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.annotation.AnnotationConfigApplicationContext" target="org.springframework.context.annotation.AnnotationConfigRegistry">
+              <point x="69.0" y="-14.5" />
+              <point x="500.8777777777778" y="459.0" />
+              <point x="547.1277777777777" y="459.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.core.io.support.ResourcePatternResolver" target="org.springframework.core.io.ResourceLoader">
+              <point x="0.0" y="-14.5" />
+              <point x="312.0" y="54.0" />
+              <point x="240.5" y="54.0" />
+              <point x="36.75" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.annotation.AnnotationConfigApplicationContext" target="org.springframework.context.support.GenericApplicationContext">
+              <point x="-69.0" y="-14.5" />
+              <point x="362.8777777777778" y="459.0" />
+              <point x="316.62777777777774" y="459.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.support.AbstractApplicationContext" target="org.springframework.core.io.DefaultResourceLoader">
+              <point x="-54.75" y="-14.5" />
+              <point x="707.1277777777777" y="301.0" />
+              <point x="95.5" y="301.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.support.AbstractRefreshableConfigApplicationContext" target="org.springframework.beans.factory.InitializingBean">
+              <point x="110.66666666666674" y="-14.5" />
+              <point x="1142.4166666666667" y="459.0" />
+              <point x="1224.1277777777777" y="459.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.support.AbstractRefreshableApplicationContext" target="org.springframework.context.support.AbstractApplicationContext">
+              <point x="0.0" y="-14.5" />
+              <point x="54.75" y="14.5" />
+            </edge>
+            <edge source="org.springframework.beans.factory.BeanNameAware" target="org.springframework.beans.factory.Aware">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.ConfigurableApplicationContext" target="org.springframework.context.ApplicationContext">
+              <point x="-81.66666666666674" y="-14.5" />
+              <point x="1024.0500000000002" y="222.0" />
+              <point x="811.8805555555557" y="222.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.beans.factory.HierarchicalBeanFactory">
+              <point x="-13.833333333333371" y="-14.5" />
+              <point x="798.0472222222224" y="128.0" />
+              <point x="696.5" y="128.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.ConfigurableApplicationContext" target="java.io.Closeable">
+              <point x="81.66666666666674" y="-14.5" />
+              <point x="1187.3833333333337" y="222.0" />
+              <point x="1499.5" y="222.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.io.Closeable" target="java.lang.AutoCloseable">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.beans.factory.ListableBeanFactory">
+              <point x="13.833333333333371" y="-14.5" />
+              <point x="825.7138888888892" y="128.0" />
+              <point x="901.0" y="128.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.ApplicationEventPublisher" target="java.lang.FunctionalInterface">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.core.io.support.ResourcePatternResolver">
+              <point x="-69.16666666666674" y="-14.5" />
+              <point x="742.713888888889" y="148.0" />
+              <point x="312.0" y="148.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.support.FileSystemXmlApplicationContext" target="org.springframework.context.support.AbstractXmlApplicationContext">
+              <point x="1.1368683772161603E-13" y="-14.5" />
+              <point x="1167.75" y="617.0" />
+              <point x="1092.25" y="617.0" />
+              <point x="60.5" y="14.5" />
+            </edge>
+            <edge source="org.springframework.context.ConfigurableApplicationContext" target="org.springframework.context.Lifecycle">
+              <point x="0.0" y="-14.5" />
+              <point x="1105.7166666666667" y="222.0" />
+              <point x="1084.5500000000002" y="222.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.7846347607052897" x="285.8747993579454" y="266.8747993579454" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar!/org/springframework/core/io/support/PathMatchingResourcePatternResolver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+          <folding>
+            <element signature="e#1994#1995#0" expanded="true" />
+            <element signature="e#2059#2060#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/xml/DefaultBeanDefinitionDocumentReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="443" selection-start-line="443" selection-end-line="443" />
+          <folding>
+            <element signature="e#8033#8034#0" expanded="true" />
+            <element signature="e#8064#8065#0" expanded="true" />
+            <element signature="e#16984#16985#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/xml/XmlBeanDefinitionReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="303" selection-start-line="303" selection-end-line="303" />
+          <folding>
+            <element signature="e#5355#5356#0" expanded="true" />
+            <element signature="e#5377#5378#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanDefinitionReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="258" selection-start-line="258" selection-end-line="258" />
+          <folding>
+            <element signature="e#4073#4074#0" expanded="true" />
+            <element signature="e#4100#4101#0" expanded="true" />
+            <element signature="e#4815#4816#0" expanded="true" />
+            <element signature="e#4858#4859#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/context/support/AbstractXmlApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+          <folding>
+            <element signature="e#2363#2364#0" expanded="true" />
+            <element signature="e#2383#2384#0" expanded="true" />
+            <element signature="e#4074#4075#0" expanded="true" />
+            <element signature="e#4118#4119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/context/support/AbstractRefreshableApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="140" selection-start-line="140" selection-end-line="140" />
+          <folding>
+            <element signature="e#3877#3878#0" expanded="true" />
+            <element signature="e#3897#3898#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../forks/spring-framework/spring-context/src/main/java/org/springframework/context/support/AbstractApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="558" column="30" selection-start-line="558" selection-start-column="18" selection-end-line="558" selection-end-column="30" />
+          <folding>
+            <element signature="e#12674#12675#0" expanded="true" />
+            <element signature="e#12713#12714#0" expanded="true" />
+            <element signature="e#39585#39586#0" expanded="true" />
+            <element signature="e#39628#39629#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar!/org/springframework/core/annotation/AliasFor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../forks/mybatis-3/src/main/java/org/apache/ibatis/session/Configuration.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/BeanFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="111" column="32" selection-start-line="111" selection-start-column="20" selection-end-line="111" selection-end-column="32" />
+        <state relative-caret-position="179">
+          <caret line="138" column="11" selection-start-line="138" selection-start-column="11" selection-end-line="138" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../forks/mybatis-3/src/test/java/org/apache/ibatis/logging/mybatis-config.xml">
+    <entry file="file://$PROJECT_DIR$/spring_learning/src/main/java/com/poppy/ioc/_2_config_mode/UseXmlConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+        <state relative-caret-position="150">
+          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../forks/mybatis-3/src/main/java/org/apache/ibatis/parsing/XNode.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="115" selection-start-line="115" selection-end-line="115" />
+        <state relative-caret-position="270">
+          <caret line="1104" column="35" selection-start-line="1104" selection-start-column="35" selection-end-line="1104" selection-end-column="35" />
           <folding>
-            <element signature="e#3381#3382#0" expanded="true" />
+            <element signature="e#10720#10721#0" expanded="true" />
+            <element signature="e#10741#10742#0" expanded="true" />
+            <element signature="e#11554#11555#0" expanded="true" />
+            <element signature="e#11579#11580#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../forks/mybatis-3/src/main/java/org/apache/ibatis/builder/xml/XMLConfigBuilder.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="272" selection-start-line="272" selection-end-line="272" />
+        <state relative-caret-position="301">
+          <caret line="178" column="50" selection-start-line="178" selection-start-column="50" selection-end-line="178" selection-end-column="50" />
+          <folding>
+            <element signature="e#7034#7035#0" expanded="true" />
+            <element signature="e#7076#7077#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jvm_learning/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jvm_learning/src/main/java/Test1.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        <state relative-caret-position="304">
+          <caret line="275" column="40" selection-start-line="275" selection-start-column="40" selection-end-line="275" selection-end-column="40" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#42471#42472#0" expanded="true" />
+            <element signature="e#42542#42543#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../forks/spring-framework/spring-aspects/src/main/java/org/springframework/transaction/aspectj/AspectJJtaTransactionManagementConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="50" column="1" lean-forward="true" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../forks/tomcat/conf/server.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="71" column="24" lean-forward="true" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -9013,7 +9935,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|spring_learning</last-edited>
+          <last-edited>Web6|tomcat</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

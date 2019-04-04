@@ -1,12 +1,12 @@
 package com.poppy.atomic;
 
 import java.util.concurrent.atomic.AtomicStampedReference;
+import java.util.concurrent.locks.LockSupport;
 
 public class UseAtomicStampedReference {
     static AtomicStampedReference<String> atomicStampedReference = new AtomicStampedReference<>("小王", 0);
 
     public static void main(String[] args) throws InterruptedException {
-
         for (int i = 0; i < 5; i++) {
             Thread thread1 = new Thread(() -> {
                 for (int j = 0; j < 10; j++)
