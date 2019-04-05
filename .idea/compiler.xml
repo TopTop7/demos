@@ -11,6 +11,7 @@
         <module name="mybatis" />
         <module name="mybatis_learning" />
         <module name="spring_learning" />
+        <module name="tomcat_learning" />
       </profile>
     </annotationProcessing>
   </component>
