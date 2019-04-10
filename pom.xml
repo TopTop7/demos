@@ -13,6 +13,7 @@
         <module>concurrency_learning</module>
         <module>jvm_learning</module>
         <module>tomcat_learning</module>
+        <module>mq_learning</module>
         <!--<module>spring_learning</module>最为单独项目-->
     </modules>
 

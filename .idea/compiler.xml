@@ -6,13 +6,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="am-springboot" />
+        <module name="am-with-sprimg-c" />
+        <module name="am-with-spring-p" />
+        <module name="asyncApp" />
         <module name="concurrency_learning" />
+        <module name="delayOrder" />
         <module name="jvm_learning" />
         <module name="mybatis" />
         <module name="mybatis_learning" />
+        <module name="no-spring" />
         <module name="spring_learning" />
         <module name="tomcat_learning" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mq_learning" target="1.5" />
+      <module name="test111" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="am-springboot" options="-parameters" />
+    </option>
   </component>
 </project>
