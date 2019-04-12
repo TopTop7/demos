@@ -10,14 +10,14 @@
         <module name="am-with-sprimg-c" />
         <module name="am-with-spring-p" />
         <module name="asyncApp" />
-        <module name="concurrency_learning" />
+        <module name="concurrency" />
         <module name="delayOrder" />
-        <module name="jvm_learning" />
+        <module name="jvm" />
         <module name="mybatis" />
-        <module name="mybatis_learning" />
+        <module name="mybatis-3" />
         <module name="no-spring" />
-        <module name="spring_learning" />
-        <module name="tomcat_learning" />
+        <module name="spring5" />
+        <module name="tomcat" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
