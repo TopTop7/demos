@@ -1,296 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="am-with-sprimg-c:war" />
+      <artifact name="am-with-spring-p:war" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="84b5b6b2-1f40-4809-8e95-9effec4dc69c" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../forks/apache-tomcat-8.5.39-src/conf/Catalina/localhost/poppy.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../forks/spring-framework" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-springboot/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-springboot/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-springboot/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-springboot/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-springboot/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-springboot/src/main/java/cn/enjoyedu/AmSpringbootApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-springboot/src/main/java/cn/enjoyedu/config/ActiveMqConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-springboot/src/main/java/cn/enjoyedu/normal/queue/ConsumerAQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-springboot/src/main/java/cn/enjoyedu/normal/queue/ConsumerBQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-springboot/src/main/java/cn/enjoyedu/normal/queue/ProducerQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-springboot/src/main/java/cn/enjoyedu/normal/topic/ConsumerATopic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-springboot/src/main/java/cn/enjoyedu/normal/topic/ConsumerBTopic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-springboot/src/main/java/cn/enjoyedu/normal/topic/ProducerTopic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-springboot/src/main/java/cn/enjoyedu/replyto/ConsumerR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-springboot/src/main/java/cn/enjoyedu/replyto/ProducerR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-springboot/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-springboot/src/test/java/cn/enjoyedu/service/AmSpringbootApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-sprimg-c/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-sprimg-c/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-sprimg-c/src/main/java/cn/enjoyedu/queue/QueueReceiver1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-sprimg-c/src/main/java/cn/enjoyedu/queue/QueueReceiver2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-sprimg-c/src/main/java/cn/enjoyedu/queue/ReplyTo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-sprimg-c/src/main/java/cn/enjoyedu/topic/TopicReceiver1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-sprimg-c/src/main/java/cn/enjoyedu/topic/TopicReceiver2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-sprimg-c/src/main/java/cn/enjoyedu/vo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-sprimg-c/src/main/webapp/WEB-INF/config/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-sprimg-c/src/main/webapp/WEB-INF/config/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-sprimg-c/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-sprimg-c/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-sprimg-c/src/main/webapp/js/jquery-1.11.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-sprimg-c/src/main/webapp/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-sprimg-c/target/am-with-sprimg-c/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-sprimg-c/target/am-with-sprimg-c/WEB-INF/config/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-sprimg-c/target/am-with-sprimg-c/WEB-INF/config/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-sprimg-c/target/am-with-sprimg-c/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-sprimg-c/target/am-with-sprimg-c/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-sprimg-c/target/am-with-sprimg-c/js/jquery-1.11.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-sprimg-c/target/am-with-sprimg-c/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-sprimg-c/target/classes/cn/enjoyedu/queue/QueueReceiver1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-sprimg-c/target/classes/cn/enjoyedu/queue/QueueReceiver2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-sprimg-c/target/classes/cn/enjoyedu/queue/ReplyTo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-sprimg-c/target/classes/cn/enjoyedu/topic/TopicReceiver1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-sprimg-c/target/classes/cn/enjoyedu/topic/TopicReceiver2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-sprimg-c/target/classes/cn/enjoyedu/vo/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-spring-p/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-spring-p/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-spring-p/src/main/java/cn/enjoyedu/controller/ActivemqController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-spring-p/src/main/java/cn/enjoyedu/queue/GetResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-spring-p/src/main/java/cn/enjoyedu/queue/QueueSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-spring-p/src/main/java/cn/enjoyedu/topic/TopicSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-spring-p/src/main/java/cn/enjoyedu/vo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-spring-p/src/main/webapp/WEB-INF/config/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-spring-p/src/main/webapp/WEB-INF/config/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-spring-p/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-spring-p/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-spring-p/src/main/webapp/js/jquery-1.11.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-spring-p/src/main/webapp/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-spring-p/target/am-with-spring-p/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-spring-p/target/am-with-spring-p/WEB-INF/classes/cn/enjoyedu/controller/ActivemqController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-spring-p/target/am-with-spring-p/WEB-INF/classes/cn/enjoyedu/queue/GetResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-spring-p/target/am-with-spring-p/WEB-INF/classes/cn/enjoyedu/queue/QueueSender.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-spring-p/target/am-with-spring-p/WEB-INF/classes/cn/enjoyedu/topic/TopicSender.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-spring-p/target/am-with-spring-p/WEB-INF/classes/cn/enjoyedu/vo/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-spring-p/target/am-with-spring-p/WEB-INF/config/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-spring-p/target/am-with-spring-p/WEB-INF/config/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-spring-p/target/am-with-spring-p/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-spring-p/target/am-with-spring-p/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-spring-p/target/am-with-spring-p/js/jquery-1.11.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-spring-p/target/am-with-spring-p/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-spring-p/target/classes/cn/enjoyedu/controller/ActivemqController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-spring-p/target/classes/cn/enjoyedu/queue/GetResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-spring-p/target/classes/cn/enjoyedu/queue/QueueSender.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-spring-p/target/classes/cn/enjoyedu/topic/TopicSender.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/am-with-spring-p/target/classes/cn/enjoyedu/vo/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/asyncApp/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/asyncApp/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/asyncApp/src/main/java/cn/enjoyedu/aop/StatTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/asyncApp/src/main/java/cn/enjoyedu/controller/UserRegController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/asyncApp/src/main/java/cn/enjoyedu/service/busi/SaveUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/asyncApp/src/main/java/cn/enjoyedu/service/busi/SendEmail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/asyncApp/src/main/java/cn/enjoyedu/service/busi/SendSms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/asyncApp/src/main/java/cn/enjoyedu/service/consumer/queue/ProcessEmail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/asyncApp/src/main/java/cn/enjoyedu/service/consumer/queue/ProcessSms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/asyncApp/src/main/java/cn/enjoyedu/service/consumer/queue/ReplyProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/asyncApp/src/main/java/cn/enjoyedu/service/consumer/topic/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/asyncApp/src/main/java/cn/enjoyedu/service/consumer/topic/DataCenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/asyncApp/src/main/java/cn/enjoyedu/service/producer/GetCustomResp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/asyncApp/src/main/java/cn/enjoyedu/service/reg/IUserReg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/asyncApp/src/main/java/cn/enjoyedu/service/reg/impl/MqProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/asyncApp/src/main/java/cn/enjoyedu/service/reg/impl/ParallelProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/asyncApp/src/main/java/cn/enjoyedu/service/reg/impl/SerialProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/asyncApp/src/main/java/cn/enjoyedu/vo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/asyncApp/src/main/webapp/WEB-INF/config/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/asyncApp/src/main/webapp/WEB-INF/config/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/asyncApp/src/main/webapp/WEB-INF/views/userReg.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/asyncApp/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/asyncApp/src/main/webapp/assets/js/jquery-1.11.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/asyncApp/target/asyncApp/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/asyncApp/target/asyncApp/WEB-INF/config/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/asyncApp/target/asyncApp/WEB-INF/config/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/asyncApp/target/asyncApp/WEB-INF/views/userReg.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/asyncApp/target/asyncApp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/asyncApp/target/asyncApp/assets/js/jquery-1.11.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/asyncApp/target/classes/cn/enjoyedu/aop/StatTime.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/asyncApp/target/classes/cn/enjoyedu/controller/UserRegController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/asyncApp/target/classes/cn/enjoyedu/service/busi/SaveUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/asyncApp/target/classes/cn/enjoyedu/service/busi/SendEmail.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/asyncApp/target/classes/cn/enjoyedu/service/busi/SendSms.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/asyncApp/target/classes/cn/enjoyedu/service/consumer/queue/ProcessEmail.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/asyncApp/target/classes/cn/enjoyedu/service/consumer/queue/ProcessSms.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/asyncApp/target/classes/cn/enjoyedu/service/consumer/queue/ReplyProducer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/asyncApp/target/classes/cn/enjoyedu/service/consumer/topic/CustomerService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/asyncApp/target/classes/cn/enjoyedu/service/consumer/topic/DataCenter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/asyncApp/target/classes/cn/enjoyedu/service/producer/GetCustomResp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/asyncApp/target/classes/cn/enjoyedu/service/reg/IUserReg.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/asyncApp/target/classes/cn/enjoyedu/service/reg/impl/MqProcess.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/asyncApp/target/classes/cn/enjoyedu/service/reg/impl/ParallelProcess.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/asyncApp/target/classes/cn/enjoyedu/service/reg/impl/SerialProcess.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/asyncApp/target/classes/cn/enjoyedu/vo/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/src/main/java/cn/enjoyedu/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/src/main/java/cn/enjoyedu/dao/OrderExpDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/src/main/java/cn/enjoyedu/model/OrderExp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/src/main/java/cn/enjoyedu/service/busi/DlyOrderProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/src/main/java/cn/enjoyedu/service/busi/SaveOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/src/main/java/cn/enjoyedu/service/delay/IDelayOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/src/main/java/cn/enjoyedu/service/delay/impl/DqMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/src/main/java/cn/enjoyedu/service/mq/MqConsume.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/src/main/java/cn/enjoyedu/service/mq/MqProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/src/main/java/cn/enjoyedu/vo/ItemVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/src/main/resources/config/mybatisconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/src/main/resources/mapper/OrderExpMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/src/main/webapp/WEB-INF/config/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/src/main/webapp/WEB-INF/config/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/src/main/webapp/WEB-INF/views/order.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/src/main/webapp/assets/js/jquery-1.11.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/target/classes/cn/enjoyedu/controller/OrderController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/target/classes/cn/enjoyedu/dao/OrderExpDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/target/classes/cn/enjoyedu/model/OrderExp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/target/classes/cn/enjoyedu/service/busi/DlyOrderProcessor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/target/classes/cn/enjoyedu/service/busi/SaveOrder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/target/classes/cn/enjoyedu/service/delay/IDelayOrder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/target/classes/cn/enjoyedu/service/delay/impl/DqMode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/target/classes/cn/enjoyedu/service/mq/MqConsume.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/target/classes/cn/enjoyedu/service/mq/MqProducer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/target/classes/cn/enjoyedu/vo/ItemVo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/target/classes/config/mybatisconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/target/classes/mapper/OrderExpMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/target/delayOrder/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/target/delayOrder/WEB-INF/classes/cn/enjoyedu/controller/OrderController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/target/delayOrder/WEB-INF/classes/cn/enjoyedu/dao/OrderExpDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/target/delayOrder/WEB-INF/classes/cn/enjoyedu/model/OrderExp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/target/delayOrder/WEB-INF/classes/cn/enjoyedu/service/busi/DlyOrderProcessor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/target/delayOrder/WEB-INF/classes/cn/enjoyedu/service/busi/SaveOrder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/target/delayOrder/WEB-INF/classes/cn/enjoyedu/service/delay/IDelayOrder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/target/delayOrder/WEB-INF/classes/cn/enjoyedu/service/delay/impl/DqMode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/target/delayOrder/WEB-INF/classes/cn/enjoyedu/service/mq/MqConsume.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/target/delayOrder/WEB-INF/classes/cn/enjoyedu/service/mq/MqProducer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/target/delayOrder/WEB-INF/classes/cn/enjoyedu/vo/ItemVo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/target/delayOrder/WEB-INF/classes/config/mybatisconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/target/delayOrder/WEB-INF/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/target/delayOrder/WEB-INF/classes/mapper/OrderExpMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/target/delayOrder/WEB-INF/config/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/target/delayOrder/WEB-INF/config/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/target/delayOrder/WEB-INF/views/order.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/target/delayOrder/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/delayOrder/target/delayOrder/assets/js/jquery-1.11.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/aandb/consumer/AandB2Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/aandb/consumer/AandBConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/aandb/producer/AandBProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/brokercluster/consumer/BcOC2Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/brokercluster/consumer/BcOCConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/brokercluster/consumer/BcPC2Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/brokercluster/consumer/BcPCConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/brokercluster/producer/BcPC2Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/brokercluster/producer/BcPCProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/brokerclusterdyn/consumer/DynBc2Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/brokerclusterdyn/consumer/DynBcConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/brokerclusterdyn/producer/DynBc2Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/brokerclusterdyn/producer/DynBcProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/compositedest/CdConsumerQueueA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/compositedest/CdConsumerQueueB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/compositedest/CdConsumerTopicA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/compositedest/CdConsumerTopicB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/compositedest/CdProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/dlq/DlqConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/dlq/DlqProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/dlq/ProcessDlqConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/durabletopic/JmsDurableTopicConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/durabletopic/JmsDurableTopicConsumerOther.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/durabletopic/JmsDurableTopicProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/embed/EmbedJmsConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/embed/EmbedJmsProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/embed/EmbedMQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/embed/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/jdbcms/JdbcMSConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/jdbcms/JdbcMSProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/msgreliability/JmsMsgReliablityConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/msgreliability/JmsMsgReliablityConsumerAsyn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/msgreliability/JmsMsgReliablitySendProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/msgreliability/JmsMsgReliablityTranProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/normal/JmsConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/normal/JmsConsumerAsyn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/normal/JmsProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/normal/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/usemq/JmsConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/usemq/JmsConsumerAsyn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/usemq/JmsMsConsumerAsyn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/usemq/JmsMsProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/usemq/JmsProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/usemq/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/virtualtopic/VtConsumerA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/virtualtopic/VtConsumerA2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/virtualtopic/VtConsumerB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/virtualtopic/VtConsumerC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/virtualtopic/VtProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/wildcards/JmsConsumerAny.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/wildcards/JmsConsumerRedis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/wildcards/JmsWildcardsProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/wildcards/JmsWildcardsProducerB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/wildcards/JmsWildcardsProducerC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/aandb/consumer/AandB2Consumer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/aandb/consumer/AandBConsumer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/aandb/producer/AandBProducer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/brokercluster/consumer/BcOC2Consumer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/brokercluster/consumer/BcOCConsumer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/brokercluster/consumer/BcPC2Consumer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/brokercluster/consumer/BcPCConsumer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/brokercluster/producer/BcPC2Producer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/brokercluster/producer/BcPCProducer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/brokerclusterdyn/consumer/DynBc2Consumer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/brokerclusterdyn/consumer/DynBcConsumer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/brokerclusterdyn/producer/DynBc2Producer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/brokerclusterdyn/producer/DynBcProducer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/compositedest/CdConsumerQueueA.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/compositedest/CdConsumerQueueB.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/compositedest/CdConsumerTopicA.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/compositedest/CdConsumerTopicB.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/compositedest/CdProducer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/dlq/DlqConsumer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/dlq/DlqProducer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/dlq/ProcessDlqConsumer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/durabletopic/JmsDurableTopicConsumer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/durabletopic/JmsDurableTopicConsumerOther.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/durabletopic/JmsDurableTopicProducer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/embed/EmbedJmsConsumer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/embed/EmbedJmsProducer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/embed/EmbedMQ.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/jdbcms/JdbcMSConsumer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/jdbcms/JdbcMSProducer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/msgreliability/JmsMsgReliablityConsumer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/msgreliability/JmsMsgReliablityConsumerAsyn.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/msgreliability/JmsMsgReliablitySendProducer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/msgreliability/JmsMsgReliablityTranProducer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/normal/JmsConsumer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/normal/JmsConsumerAsyn.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/normal/JmsProducer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/usemq/JmsConsumer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/usemq/JmsConsumerAsyn.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/usemq/JmsMsConsumerAsyn.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/usemq/JmsMsProducer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/usemq/JmsProducer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/virtualtopic/VtConsumerA.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/virtualtopic/VtConsumerA2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/virtualtopic/VtConsumerB.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/virtualtopic/VtConsumerC.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/virtualtopic/VtProducer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/wildcards/JmsConsumerAny.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/wildcards/JmsConsumerRedis.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/wildcards/JmsWildcardsProducer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/wildcards/JmsWildcardsProducerB.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/no-spring/target/classes/cn/enjoyedu/wildcards/JmsWildcardsProducerC.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_learning/src/main/java/com/poppy/BeanPostProcessorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_learning/src/main/java/com/poppy/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_learning/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_learning/src/main/resources/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_learning/target/classes/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_learning/target/classes/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_learning/target/classes/com/poppy/ioc/_1_bean/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_learning/target/classes/com/poppy/ioc/_1_bean/Cat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activemq/am-with-sprimg-c/src/main/webapp/WEB-INF/config/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/activemq/am-with-sprimg-c/src/main/webapp/WEB-INF/config/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activemq/am-with-spring-p/src/main/webapp/WEB-INF/config/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/activemq/am-with-spring-p/src/main/webapp/WEB-INF/config/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activemq/am-with-spring-p/target/am-with-spring-p/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/activemq/am-with-spring-p/target/am-with-spring-p/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activemq/am-with-spring-p/target/am-with-spring-p/WEB-INF/classes/cn/enjoyedu/controller/ActivemqController.class" beforeDir="false" afterPath="$PROJECT_DIR$/activemq/am-with-spring-p/target/am-with-spring-p/WEB-INF/classes/cn/enjoyedu/controller/ActivemqController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activemq/am-with-spring-p/target/am-with-spring-p/WEB-INF/classes/cn/enjoyedu/queue/GetResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/activemq/am-with-spring-p/target/am-with-spring-p/WEB-INF/classes/cn/enjoyedu/queue/GetResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activemq/am-with-spring-p/target/am-with-spring-p/WEB-INF/classes/cn/enjoyedu/queue/QueueSender.class" beforeDir="false" afterPath="$PROJECT_DIR$/activemq/am-with-spring-p/target/am-with-spring-p/WEB-INF/classes/cn/enjoyedu/queue/QueueSender.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activemq/am-with-spring-p/target/am-with-spring-p/WEB-INF/classes/cn/enjoyedu/topic/TopicSender.class" beforeDir="false" afterPath="$PROJECT_DIR$/activemq/am-with-spring-p/target/am-with-spring-p/WEB-INF/classes/cn/enjoyedu/topic/TopicSender.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activemq/am-with-spring-p/target/am-with-spring-p/WEB-INF/classes/cn/enjoyedu/vo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/activemq/am-with-spring-p/target/am-with-spring-p/WEB-INF/classes/cn/enjoyedu/vo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activemq/am-with-spring-p/target/am-with-spring-p/WEB-INF/config/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/activemq/am-with-spring-p/target/am-with-spring-p/WEB-INF/config/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activemq/asyncApp/src/main/java/cn/enjoyedu/service/reg/impl/MqProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/activemq/asyncApp/src/main/java/cn/enjoyedu/service/reg/impl/MqProcess.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -415,7 +145,7 @@
     <session id="-67062658">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.2" value="1" />
@@ -463,14 +193,15 @@
           <entry key="fxml" value="2" />
           <entry key="gitignore" value="1" />
           <entry key="html" value="1" />
-          <entry key="java" value="664" />
+          <entry key="java" value="699" />
           <entry key="jsp" value="2" />
           <entry key="md" value="1" />
           <entry key="policy" value="1" />
-          <entry key="properties" value="2" />
+          <entry key="properties" value="3" />
           <entry key="sql" value="5" />
+          <entry key="txt" value="1" />
           <entry key="xhtml" value="1" />
-          <entry key="xml" value="75" />
+          <entry key="xml" value="80" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -478,16 +209,16 @@
           <entry key="CLASS" value="68" />
           <entry key="Git file" value="1" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="664" />
+          <entry key="JAVA" value="699" />
           <entry key="JSP" value="2" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Properties" value="2" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Properties" value="3" />
           <entry key="SQL" value="5" />
           <entry key="Scratch" value="1" />
           <entry key="UML" value="38" />
           <entry key="XHTML" value="1" />
-          <entry key="XML" value="76" />
+          <entry key="XML" value="81" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -495,9 +226,9 @@
           <entry key="class" value="1" />
           <entry key="dummy" value="78" />
           <entry key="gitignore" value="2" />
-          <entry key="java" value="7132" />
+          <entry key="java" value="7149" />
           <entry key="md" value="6" />
-          <entry key="xml" value="484" />
+          <entry key="xml" value="500" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -505,10 +236,10 @@
           <entry key="AspectJ" value="1" />
           <entry key="CLASS" value="1" />
           <entry key="Git file" value="2" />
-          <entry key="JAVA" value="7132" />
+          <entry key="JAVA" value="7149" />
           <entry key="Markdown" value="6" />
           <entry key="PLAIN_TEXT" value="78" />
-          <entry key="XML" value="483" />
+          <entry key="XML" value="499" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.core.usages.trigger">
@@ -524,10 +255,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/activemq/pom.xml">
+        <entry file="file://$PROJECT_DIR$/activemq/asyncApp/src/main/java/cn/enjoyedu/service/producer/GetCustomResp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="24" />
+            <state relative-caret-position="195">
+              <caret line="18" column="41" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -535,8 +266,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/usemq/JmsProducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="56" />
+            <state relative-caret-position="15">
+              <caret line="28" column="15" lean-forward="true" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -544,70 +275,74 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/usemq/JmsConsumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="26" column="15" lean-forward="true" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+            <state relative-caret-position="229">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-all/5.8.0/activemq-all-5.8.0.jar!/org/apache/activemq/ActiveMQConnection.class">
+        <entry file="file://$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/usemq/JmsConsumerAsyn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="103" column="43" lean-forward="true" selection-start-line="103" selection-start-column="43" selection-end-line="103" selection-end-column="43" />
+            <state relative-caret-position="555">
+              <caret line="60" column="21" lean-forward="true" selection-start-line="56" selection-start-column="20" selection-end-line="60" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/activemq/no-spring/pom.xml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/compositedest/CdProducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="454">
+              <caret line="46" column="35" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/activemq/delayOrder/pom.xml">
+        <entry file="file://$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/compositedest/CdConsumerTopicB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="-57">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/activemq/am-springboot/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/activemq/am-with-sprimg-c/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/activemq/am-with-spring-p/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/activemq/asyncApp/pom.xml">
+        <entry file="file://$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/compositedest/CdConsumerTopicA.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/compositedest/CdConsumerQueueB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-36">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/compositedest/CdConsumerQueueA.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-60">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/usemq/JmsMsProducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-214">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -627,7 +362,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>maxField</find>
       <find>prop</find>
       <find>sett</find>
       <find>get</find>
@@ -657,6 +391,7 @@
       <find>getParentName</find>
       <find>XmlBeanDefinitionReader</find>
       <find>doLoadBeanDefinitions</find>
+      <find>getResponse</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/../forks/tomcat/conf</dir>
@@ -7888,11 +7623,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring_learning/src/main/java/com/poppy/ioc/_6_import/CustomFactoryBean.java" />
-        <option value="$PROJECT_DIR$/spring_learning/src/main/java/com/poppy/ioc/_6_import/Config.java" />
-        <option value="$PROJECT_DIR$/../forks/spring-framework/spring-core/src/main/java/org/springframework/core/io/Resource.java" />
-        <option value="$PROJECT_DIR$/../forks/spring-framework/spring-core/src/main/java/org/springframework/core/io/ResourceLoader.java" />
-        <option value="$PROJECT_DIR$/../forks/spring-framework/spring-core/src/main/java/org/springframework/core/io/DefaultResourceLoader.java" />
         <option value="$PROJECT_DIR$/../forks/spring-framework/spring-core/src/main/java/org/springframework/core/io/ProtocolResolver.java" />
         <option value="$PROJECT_DIR$/../forks/spring-framework/spring-core/src/test/java/org/springframework/core/io/DefaultResourceLoaderTest.java" />
         <option value="$PROJECT_DIR$/../forks/spring-framework/spring-core/src/main/java/org/springframework/core/io/FileSystemResourceLoader.java" />
@@ -7939,6 +7669,11 @@
         <option value="$PROJECT_DIR$/activemq/asyncApp/pom.xml" />
         <option value="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/usemq/JmsProducer.java" />
         <option value="$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/usemq/JmsConsumer.java" />
+        <option value="$PROJECT_DIR$/activemq/am-with-sprimg-c/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/activemq/am-with-spring-p/src/main/webapp/WEB-INF/config/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/activemq/am-with-sprimg-c/src/main/webapp/WEB-INF/config/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/activemq/asyncApp/src/main/java/cn/enjoyedu/service/reg/impl/MqProcess.java" />
+        <option value="$PROJECT_DIR$/activemq/asyncApp/src/main/java/cn/enjoyedu/service/producer/GetCustomResp.java" />
       </list>
     </option>
   </component>
@@ -7947,6 +7682,13 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -7964,10 +7706,10 @@
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-8" />
-    <option name="width" value="1554" />
-    <option name="height" value="1050" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="959" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -8471,6 +8213,18 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cn" type="462c0819:PsiDirectoryNode" />
               <item name="enjoyedu" type="462c0819:PsiDirectoryNode" />
+              <item name="compositedest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="activemq" type="462c0819:PsiDirectoryNode" />
+              <item name="no-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="enjoyedu" type="462c0819:PsiDirectoryNode" />
               <item name="usemq" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -8487,7 +8241,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true&#10;/Users/poppy/projects/my_learning/.gitignore" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554877070669" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554917671441" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -8495,7 +8249,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="Docker" />
@@ -8542,7 +8296,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JmsConsumer">
+  <component name="RunManager" selected="Tomcat Server.am-spring-c">
     <configuration name="JmsConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.enjoyedu.usemq.JmsConsumer" />
       <module name="no-spring" />
@@ -8569,6 +8323,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All Features in: am-with-sprimg-c" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="3" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/activemq/am-with-sprimg-c" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="am-with-sprimg-c" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter" />
+      <option name="SUGGESTED_NAME" value="All Features in: am-with-sprimg-c" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All Features in: am-with-spring-p" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="3" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/activemq/am-with-spring-p" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="am-with-spring-p" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter" />
+      <option name="SUGGESTED_NAME" value="All Features in: am-with-spring-p" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in am-with-sprimg-c" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="am-with-sprimg-c" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AmSpringbootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="am-springboot" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.enjoyedu.AmSpringbootApplication" />
@@ -8576,13 +8372,169 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="am-spring-c" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat1" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="am-with-sprimg-c:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_my_learning" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="60936" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="am-with-spring-p:war" />
+          <artifact name="am-with-sprimg-c:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="am-spring-p" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat1" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="am-with-spring-p:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="am-spring-c_(1)_my_learning" />
+        <option name="HTTP_PORT" value="8081" />
+        <option name="JNDI_PORT" value="2099" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="60936" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="am-with-spring-p:war" />
+          <artifact name="am-with-sprimg-c:war" />
+        </option>
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Spring Boot.AmSpringbootApplication" />
+      <item itemvalue="Tomcat Server.am-spring-c" />
+      <item itemvalue="Tomcat Server.am-spring-p" />
       <item itemvalue="Application.JmsProducer" />
       <item itemvalue="Application.JmsConsumer" />
+      <item itemvalue="Cucumber java.All Features in: am-with-sprimg-c" />
+      <item itemvalue="Cucumber java.All Features in: am-with-spring-p" />
+      <item itemvalue="JUnit.All in am-with-sprimg-c" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.All Features in: am-with-spring-p" />
+        <item itemvalue="Cucumber java.All Features in: am-with-sprimg-c" />
+        <item itemvalue="JUnit.All in am-with-sprimg-c" />
         <item itemvalue="Application.JmsConsumer" />
         <item itemvalue="Application.JmsProducer" />
       </list>
@@ -8607,29 +8559,11 @@
       <workItem from="1554615914373" duration="1366000" />
       <workItem from="1554626636695" duration="729000" />
       <workItem from="1554640331213" duration="2669000" />
-      <workItem from="1554746234772" duration="9516000" />
+      <workItem from="1554746234772" duration="14139000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ConfigTest_test2 - 2019.04.01 at 01h 06m 11s.xml">
-      <configuration name="ConfigTest.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConfigTest_test2 - 2019.04.01 at 02h 46m 58s.xml">
-      <configuration name="ConfigTest.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConfigTest_test2 - 2019.04.01 at 02h 48m 02s.xml">
-      <configuration name="ConfigTest.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConfigTest_test2 - 2019.04.01 at 02h 48m 06s.xml">
-      <configuration name="ConfigTest.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConfigTest_test2 - 2019.04.01 at 02h 52m 21s.xml">
-      <configuration name="ConfigTest.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClassPathResourceTests_stringConstructorRaisesExceptionWithFullyQualifiedPath - 2019.04.01 at 03h 08m 24s.xml">
-      <configuration name="ClassPathResourceTests.stringConstructorRaisesExceptionWithFullyQualifiedPath" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LogFactoryTest_shouldReadLogImplFromSettings - 2019.04.01 at 18h 24m 31s.xml">
       <configuration name="LogFactoryTest.shouldReadLogImplFromSettings" configurationId="JUnit" />
     </history-entry>
@@ -8642,9 +8576,27 @@
     <history-entry file="LogFactoryTest_shouldReadLogImplFromSettings - 2019.04.02 at 14h 38m 10s.xml">
       <configuration name="LogFactoryTest.shouldReadLogImplFromSettings" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_am-with-sprimg-c - 2019.04.10 at 14h 34m 50s.xml">
+      <configuration name="All in am-with-sprimg-c" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_Features_in__am-with-sprimg-c - 2019.04.10 at 14h 35m 03s.xml">
+      <configuration name="All Features in: am-with-sprimg-c" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_Features_in__am-with-spring-p - 2019.04.10 at 14h 36m 16s.xml">
+      <configuration name="All Features in: am-with-spring-p" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_Features_in__am-with-sprimg-c - 2019.04.10 at 14h 37m 01s.xml">
+      <configuration name="All Features in: am-with-sprimg-c" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_Features_in__am-with-spring-p - 2019.04.10 at 14h 43m 15s.xml">
+      <configuration name="All Features in: am-with-spring-p" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_Features_in__am-with-spring-p - 2019.04.10 at 14h 48m 27s.xml">
+      <configuration name="All Features in: am-with-spring-p" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120422000" />
+    <option name="totallyTimeSpent" value="125045000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -8656,11 +8608,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="959" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Web" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49584025" visible="true" weight="0.37606838" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49584025" visible="true" weight="0.26678878" />
       <window_info id="Structure" order="2" sideWeight="0.5009276" side_tool="true" weight="0.22161172" />
       <window_info id="Designer" order="3" />
       <window_info id="Image Layers" order="4" />
@@ -8668,20 +8620,21 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Favorites" order="7" sideWeight="0.5009276" side_tool="true" weight="0.22161172" />
       <window_info x="21" y="363" width="1638" height="323" id="Docker" order="8" sideWeight="0.50415975" side_tool="true" weight="0.37606838" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.32959184" />
       <window_info anchor="bottom" id="Spring" order="0" weight="0.32959184" />
       <window_info anchor="bottom" id="Java Enterprise" order="1" />
       <window_info anchor="bottom" id="Build" order="2" weight="0.32959184" />
       <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.45" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.4896215" visible="true" weight="0.18673469" />
-      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.4993895" weight="0.2489796" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.45306122" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.4896215" weight="0.17142858" />
+      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.4993895" weight="0.5744898" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" weight="0.32959184" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Statistic" order="12" />
-      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.4993895" weight="0.38061225" />
+      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.4993895" weight="0.23367347" />
       <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.51037854" side_tool="true" weight="0.2010204" />
       <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.4859585" weight="0.37040818" />
       <window_info anchor="right" id="CDI" />
@@ -8760,521 +8713,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="70" column="41" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="41" />
-          <folding>
-            <element signature="e#7034#7035#0" expanded="true" />
-            <element signature="e#7076#7077#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="293" column="32" lean-forward="true" selection-start-line="293" selection-start-column="32" selection-end-line="293" selection-end-column="32" />
-          <folding>
-            <element signature="e#27278#27279#0" expanded="true" />
-            <element signature="e#27314#27315#0" expanded="true" />
-            <element signature="e#42471#42472#0" expanded="true" />
-            <element signature="e#42542#42543#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/support/RootBeanDefinition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7">
-          <caret line="54" column="46" lean-forward="true" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanDefinition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../forks/spring-framework/spring-beans/src/main/java/org/springframework/beans/factory/support/BeanDefinitionRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="47" column="27" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="45" column="38" lean-forward="true" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanDefinitionReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="111" column="25" lean-forward="true" selection-start-line="111" selection-start-column="25" selection-end-line="111" selection-end-column="25" />
-          <folding>
-            <element signature="e#4073#4074#0" expanded="true" />
-            <element signature="e#4100#4101#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/xml/NamespaceHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="72" column="19" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/xml/BeanDefinitionParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/xml/NamespaceHandlerSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="73" column="43" selection-start-line="73" selection-start-column="43" selection-end-line="73" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/xml/BeanDefinitionParserDelegate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="1351" column="24" selection-start-line="1351" selection-start-column="24" selection-end-line="1351" selection-end-column="24" />
-          <folding>
-            <element signature="e#47940#47941#0" expanded="true" />
-            <element signature="e#47983#47984#0" expanded="true" />
-            <element signature="e#52884#52885#0" expanded="true" />
-            <element signature="e#52939#52940#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/xml/DefaultBeanDefinitionDocumentReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="184" column="39" selection-start-line="184" selection-start-column="21" selection-end-line="184" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/xml/XmlBeanDefinitionReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="496" column="7" lean-forward="true" selection-start-line="496" selection-start-column="7" selection-end-line="496" selection-end-column="7" />
-          <folding>
-            <element signature="e#5355#5356#0" expanded="true" />
-            <element signature="e#5377#5378#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar!/org/springframework/core/io/Resource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar!/org/springframework/core/io/AbstractResource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar!/org/springframework/core/io/AbstractFileResolvingResource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="20" column="65" lean-forward="true" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_learning/src/main/java/com/poppy/BeanPostProcessorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/org.springframework.beans.factory.support.DefaultListableBeanFactory">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>org.springframework.beans.factory.support.DefaultListableBeanFactory</OriginalElement>
-          <nodes>
-            <node x="235.13240740740747" y="158.0">org.springframework.beans.factory.HierarchicalBeanFactory</node>
-            <node x="586.8716049382715" y="158.0">org.springframework.beans.factory.support.DefaultSingletonBeanRegistry</node>
-            <node x="676.6216049382715" y="79.0">org.springframework.core.SimpleAliasRegistry</node>
-            <node x="395.88240740740747" y="79.0">org.springframework.beans.factory.config.SingletonBeanRegistry</node>
-            <node x="1104.1216049382715" y="395.0">java.lang.SuppressWarnings</node>
-            <node x="261.45833333333337" y="316.0">org.springframework.beans.factory.config.AutowireCapableBeanFactory</node>
-            <node x="863.6216049382715" y="79.0">org.springframework.beans.factory.support.BeanDefinitionRegistry</node>
-            <node x="100.625" y="395.0">org.springframework.beans.factory.config.ConfigurableListableBeanFactory</node>
-            <node x="425.1324074074074" y="395.0">org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory</node>
-            <node x="968.1216049382715" y="395.0">java.io.Serializable</node>
-            <node x="589.8716049382715" y="237.0">org.springframework.beans.factory.support.FactoryBeanRegistrySupport</node>
-            <node x="796.3629629629629" y="0.0">org.springframework.core.AliasRegistry</node>
-            <node x="547.6324074074074" y="316.0">org.springframework.beans.factory.support.AbstractBeanFactory</node>
-            <node x="192.95833333333337" y="79.0">org.springframework.beans.factory.BeanFactory</node>
-            <node x="841.026234567901" y="474.0">org.springframework.beans.factory.support.DefaultListableBeanFactory</node>
-            <node x="289.63240740740747" y="237.0">org.springframework.beans.factory.config.ConfigurableBeanFactory</node>
-            <node x="0.0" y="158.0">org.springframework.beans.factory.ListableBeanFactory</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="org.springframework.core.SimpleAliasRegistry" target="org.springframework.core.AliasRegistry">
-              <point x="0.0" y="-14.5" />
-              <point x="760.1216049382715" y="54.0" />
-              <point x="828.1129629629629" y="54.0" />
-              <point x="-31.75" y="14.5" />
-            </edge>
-            <edge source="org.springframework.beans.factory.HierarchicalBeanFactory" target="org.springframework.beans.factory.BeanFactory">
-              <point x="0.0" y="-14.5" />
-              <point x="333.63240740740747" y="133.0" />
-              <point x="297.125" y="133.0" />
-              <point x="41.66666666666663" y="14.5" />
-            </edge>
-            <edge source="org.springframework.beans.factory.support.DefaultListableBeanFactory" target="java.lang.SuppressWarnings">
-              <point x="86.39999999999998" y="-14.5" />
-              <point x="1035.426234567901" y="454.0" />
-              <point x="1186.6216049382715" y="454.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory" target="org.springframework.beans.factory.config.AutowireCapableBeanFactory">
-              <point x="-70.5" y="-14.5" />
-              <point x="495.6324074074074" y="370.0" />
-              <point x="433.20833333333337" y="370.0" />
-              <point x="57.25" y="14.5" />
-            </edge>
-            <edge source="org.springframework.beans.factory.config.AutowireCapableBeanFactory" target="org.springframework.beans.factory.BeanFactory">
-              <point x="0.0" y="-14.5" />
-              <point x="375.95833333333337" y="286.0" />
-              <point x="224.63240740740747" y="286.0" />
-              <point x="224.63240740740747" y="133.0" />
-              <point x="255.45833333333337" y="133.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework.beans.factory.support.DefaultSingletonBeanRegistry" target="org.springframework.core.SimpleAliasRegistry">
-              <point x="57.75" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework.beans.factory.support.FactoryBeanRegistrySupport" target="org.springframework.beans.factory.support.DefaultSingletonBeanRegistry">
-              <point x="0.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework.beans.factory.config.ConfigurableListableBeanFactory" target="org.springframework.beans.factory.config.AutowireCapableBeanFactory">
-              <point x="83.66666666666669" y="-14.5" />
-              <point x="309.7916666666667" y="370.0" />
-              <point x="318.70833333333337" y="370.0" />
-              <point x="-57.25" y="14.5" />
-            </edge>
-            <edge source="org.springframework.beans.factory.config.ConfigurableListableBeanFactory" target="org.springframework.beans.factory.ListableBeanFactory">
-              <point x="-83.66666666666669" y="-14.5" />
-              <point x="142.45833333333331" y="370.0" />
-              <point x="86.00000000000006" y="370.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework.beans.factory.ListableBeanFactory" target="org.springframework.beans.factory.BeanFactory">
-              <point x="0.0" y="-14.5" />
-              <point x="86.0" y="133.0" />
-              <point x="213.79166666666674" y="133.0" />
-              <point x="-41.66666666666666" y="14.5" />
-            </edge>
-            <edge source="org.springframework.beans.factory.config.ConfigurableListableBeanFactory" target="org.springframework.beans.factory.config.ConfigurableBeanFactory">
-              <point x="0.0" y="-14.5" />
-              <point x="226.125" y="370.0" />
-              <point x="215.9012345679011" y="370.0" />
-              <point x="215.9012345679011" y="296.0" />
-              <point x="340.63240740740747" y="296.0" />
-              <point x="-51.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework.beans.factory.config.ConfigurableBeanFactory" target="org.springframework.beans.factory.config.SingletonBeanRegistry">
-              <point x="50.99999999999994" y="-14.5" />
-              <point x="-46.75" y="14.5" />
-            </edge>
-            <edge source="org.springframework.beans.factory.support.BeanDefinitionRegistry" target="org.springframework.core.AliasRegistry">
-              <point x="0.0" y="-14.5" />
-              <point x="957.6216049382715" y="54.0" />
-              <point x="891.6129629629629" y="54.0" />
-              <point x="31.75" y="14.5" />
-            </edge>
-            <edge source="org.springframework.beans.factory.support.DefaultSingletonBeanRegistry" target="org.springframework.beans.factory.config.SingletonBeanRegistry">
-              <point x="-57.75" y="-14.5" />
-              <point x="644.6216049382715" y="133.0" />
-              <point x="536.1324074074075" y="133.0" />
-              <point x="46.75" y="14.5" />
-            </edge>
-            <edge source="org.springframework.beans.factory.support.AbstractBeanFactory" target="org.springframework.beans.factory.support.FactoryBeanRegistrySupport">
-              <point x="44.5" y="-14.5" />
-              <point x="681.1324074074074" y="296.0" />
-              <point x="702.3716049382715" y="296.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory" target="org.springframework.beans.factory.support.AbstractBeanFactory">
-              <point x="70.5" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework.beans.factory.support.DefaultListableBeanFactory" target="org.springframework.beans.factory.config.ConfigurableListableBeanFactory">
-              <point x="-86.39999999999998" y="-14.5" />
-              <point x="862.6262345679011" y="454.0" />
-              <point x="226.125" y="454.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework.beans.factory.support.DefaultListableBeanFactory" target="java.io.Serializable">
-              <point x="43.200000000000045" y="-14.5" />
-              <point x="992.2262345679011" y="454.0" />
-              <point x="1026.1216049382715" y="454.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework.beans.factory.support.AbstractBeanFactory" target="org.springframework.beans.factory.config.ConfigurableBeanFactory">
-              <point x="-44.5" y="-14.5" />
-              <point x="592.1324074074074" y="296.0" />
-              <point x="442.63240740740747" y="296.0" />
-              <point x="51.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework.beans.factory.support.DefaultListableBeanFactory" target="org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory">
-              <point x="-43.200000000000045" y="-14.5" />
-              <point x="905.826234567901" y="444.0" />
-              <point x="566.1324074074074" y="444.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework.beans.factory.config.ConfigurableBeanFactory" target="org.springframework.beans.factory.HierarchicalBeanFactory">
-              <point x="-51.00000000000006" y="-14.5" />
-              <point x="340.6324074074074" y="212.0" />
-              <point x="333.63240740740747" y="212.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework.beans.factory.support.DefaultListableBeanFactory" target="org.springframework.beans.factory.support.BeanDefinitionRegistry">
-              <point x="0.0" y="-14.5" />
-              <point x="949.026234567901" y="454.0" />
-              <point x="957.6216049382715" y="454.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.7922480620155039" x="286.9354207436399" y="108.9354207436399" />
-          <SelectedNodes>
-            <node>org.springframework.beans.factory.support.DefaultListableBeanFactory</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar!/org/springframework/core/io/InputStreamSource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="15" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/org.springframework.core.io.ClassPathResource">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>org.springframework.core.io.ClassPathResource</OriginalElement>
-          <nodes>
-            <node x="0.0" y="1029.0">org.springframework.beans.factory.support.BeanDefinitionResource</node>
-            <node x="302.0" y="974.0">org.springframework.core.io.AbstractFileResolvingResource</node>
-            <node x="579.375" y="0.0">org.springframework.core.io.InputStreamSource</node>
-            <node x="354.5" y="1394.0">org.springframework.core.io.ClassPathResource</node>
-            <node x="688.0" y="897.0">org.springframework.core.io.FileSystemResource</node>
-            <node x="546.875" y="101.0">org.springframework.core.io.Resource</node>
-            <node x="291.21875" y="466.0">org.springframework.core.io.AbstractResource</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="org.springframework.core.io.Resource" target="org.springframework.core.io.InputStreamSource">
-              <point x="0.0" y="-157.5" />
-              <point x="0.0" y="25.5" />
-            </edge>
-            <edge source="org.springframework.beans.factory.support.BeanDefinitionResource" target="org.springframework.core.io.AbstractResource">
-              <point x="0.0" y="-91.5" />
-              <point x="141.0" y="872.0" />
-              <point x="344.0520833333333" y="872.0" />
-              <point x="-105.66666666666669" y="190.5" />
-            </edge>
-            <edge source="org.springframework.core.io.AbstractFileResolvingResource" target="org.springframework.core.io.AbstractResource">
-              <point x="0.0" y="-146.5" />
-              <point x="485.0" y="872.0" />
-              <point x="449.71875" y="872.0" />
-              <point x="0.0" y="190.5" />
-            </edge>
-            <edge source="org.springframework.core.io.FileSystemResource" target="org.springframework.core.io.Resource">
-              <point x="79.25" y="-223.5" />
-              <point x="925.75" y="441.0" />
-              <point x="784.625" y="441.0" />
-              <point x="79.25" y="157.5" />
-            </edge>
-            <edge source="org.springframework.core.io.AbstractResource" target="org.springframework.core.io.Resource">
-              <point x="0.0" y="-190.5" />
-              <point x="449.71875" y="441.0" />
-              <point x="626.125" y="441.0" />
-              <point x="-79.25" y="157.5" />
-            </edge>
-            <edge source="org.springframework.core.io.FileSystemResource" target="org.springframework.core.io.AbstractResource">
-              <point x="-79.25" y="-223.5" />
-              <point x="767.25" y="872.0" />
-              <point x="555.3854166666667" y="872.0" />
-              <point x="105.66666666666674" y="190.5" />
-            </edge>
-            <edge source="org.springframework.core.io.ClassPathResource" target="org.springframework.core.io.AbstractFileResolvingResource">
-              <point x="0.0" y="-135.5" />
-              <point x="0.0" y="146.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="258.0" y="1105.0" />
-          <SelectedNodes>
-            <node>org.springframework.core.io.InputStreamSource</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar!/org/springframework/core/io/ClassPathResource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#714#715#0" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../forks/spring-framework/spring-core/src/main/java/org/springframework/core/io/support/EncodedResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="39" column="15" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../forks/spring-framework/spring-beans/src/main/java/org/springframework/beans/factory/xml/XmlBeanDefinitionReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="397" column="47" selection-start-line="397" selection-start-column="24" selection-end-line="397" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_learning/src/main/java/com/poppy/beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/xml/AbstractBeanDefinitionParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="138" column="56" selection-start-line="138" selection-start-column="34" selection-end-line="138" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionReaderUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="165" column="28" selection-start-line="165" selection-start-column="28" selection-end-line="165" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="940" column="42" selection-start-line="940" selection-start-column="39" selection-end-line="940" selection-end-column="42" />
-          <folding>
-            <element signature="e#16941#16942#0" expanded="true" />
-            <element signature="e#16984#16985#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/activemq_learning/src/main/java/usemq/JmsMsConsumerAsyn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/activemq_learning/src/main/java/usemq/package-info.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/activemq_learning/src/main/java/usemq/JmsMsProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-all/5.8.0/activemq-all-5.8.0.jar!/org/apache/activemq/ActiveMQSession.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="563" column="17" selection-start-line="563" selection-start-column="17" selection-end-line="563" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/activemq_learning/src/main/java/usemq/JmsConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/activemq_learning/src/main/java/usemq/JmsConsumerAsyn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/activemq_learning/am-springboot/src/main/java/cn/enjoyedu/config/ActiveMqConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/activemq_learning/src/main/java/usemq/JmsProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="22" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/activemq_learning/no-spring/src/main/java/cn/enjoyedu/usemq/JmsProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/activemq_learning/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/activemq_learning/no-spring/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/activemq_learning/no-spring/src/main/java/cn/enjoyedu/usemq/JmsConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -9323,20 +8761,6 @@
     <entry file="file://$PROJECT_DIR$/activemq/am-springboot/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/activemq/am-with-sprimg-c/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/activemq/am-with-spring-p/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/activemq/asyncApp/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -9347,14 +8771,242 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-all/5.8.0/activemq-all-5.8.0.jar!/org/apache/activemq/ActiveMQConnection.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="103" column="43" lean-forward="true" selection-start-line="103" selection-start-column="43" selection-end-line="103" selection-end-column="43" />
+          <caret line="103" column="43" selection-start-line="103" selection-start-column="43" selection-end-line="103" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../forks/spring-framework/spring-aspects/src/main/java/org/springframework/transaction/aspectj/AspectJJtaTransactionManagementConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activemq/am-with-spring-p/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activemq/am-with-sprimg-c/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency_learning/src/main/java/com/poppy/SleepTools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activemq/am-with-sprimg-c/src/main/java/cn/enjoyedu/vo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activemq/am-with-sprimg-c/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activemq/am-with-spring-p/src/main/java/cn/enjoyedu/controller/ActivemqController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activemq/am-with-spring-p/src/main/webapp/WEB-INF/config/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-107">
+          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activemq/am-with-sprimg-c/readme.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activemq/am-with-sprimg-c/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activemq/am-with-sprimg-c/src/main/webapp/WEB-INF/config/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-853" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activemq/am-with-sprimg-c/src/main/webapp/WEB-INF/config/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="42" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activemq/am-with-sprimg-c/src/main/webapp/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activemq/am-with-spring-p/src/main/java/cn/enjoyedu/topic/TopicSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activemq/am-with-spring-p/src/main/java/cn/enjoyedu/queue/GetResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activemq/am-with-spring-p/src/main/java/cn/enjoyedu/queue/QueueSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activemq/am-springboot/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activemq/am-springboot/src/main/java/cn/enjoyedu/config/ActiveMqConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="48" column="23" lean-forward="true" selection-start-line="44" selection-start-column="7" selection-end-line="48" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activemq/am-springboot/src/main/java/cn/enjoyedu/replyto/ConsumerR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activemq/am-springboot/src/main/java/cn/enjoyedu/replyto/ProducerR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activemq/am-springboot/src/main/java/cn/enjoyedu/AmSpringbootApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activemq/am-springboot/src/main/java/cn/enjoyedu/normal/topic/ConsumerATopic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activemq/am-springboot/src/main/java/cn/enjoyedu/normal/topic/ProducerTopic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activemq/am-with-sprimg-c/src/main/java/cn/enjoyedu/topic/TopicReceiver1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activemq/am-with-sprimg-c/src/main/java/cn/enjoyedu/topic/TopicReceiver2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activemq/am-with-sprimg-c/src/main/java/cn/enjoyedu/queue/QueueReceiver2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activemq/am-with-sprimg-c/src/main/java/cn/enjoyedu/queue/QueueReceiver1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activemq/am-with-sprimg-c/src/main/java/cn/enjoyedu/queue/ReplyTo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activemq/asyncApp/src/main/java/cn/enjoyedu/service/reg/impl/SerialProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activemq/asyncApp/src/main/java/cn/enjoyedu/service/reg/impl/ParallelProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activemq/asyncApp/src/main/java/cn/enjoyedu/service/consumer/topic/CustomerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activemq/asyncApp/src/main/java/cn/enjoyedu/service/reg/impl/MqProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="68" column="63" lean-forward="true" selection-start-line="68" selection-start-column="63" selection-end-line="68" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activemq/asyncApp/src/main/java/cn/enjoyedu/service/producer/GetCustomResp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/usemq/JmsMsProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-214">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/usemq/JmsProducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="56" />
+        <state relative-caret-position="15">
+          <caret line="28" column="15" lean-forward="true" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -9363,8 +9015,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/usemq/JmsConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="26" column="15" lean-forward="true" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+        <state relative-caret-position="229">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/usemq/JmsConsumerAsyn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="60" column="21" lean-forward="true" selection-start-line="56" selection-start-column="20" selection-end-line="60" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/compositedest/CdConsumerQueueA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/compositedest/CdConsumerQueueB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/compositedest/CdConsumerTopicB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/compositedest/CdConsumerTopicA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activemq/no-spring/src/main/java/cn/enjoyedu/compositedest/CdProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="46" column="35" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -9385,7 +9079,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>spring_learning:war exploded</last-edited>
+          <last-edited>am-with-spring-p:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -9433,7 +9127,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>spring</last-edited>
+          <last-edited>am-with-sprimg-c</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
