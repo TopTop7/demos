@@ -5,15 +5,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.poppy</groupId>
-    <artifactId>my_learning</artifactId>
+    <artifactId>demos</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>mybatis_learning</module>
-        <module>concurrency_learning</module>
-        <module>jvm_learning</module>
-        <module>tomcat_learning</module>
-        <module>mq_learning</module>
+        <module>mybatis</module>
+        <module>concurrency</module>
+        <module>jvm</module>
+        <module>tomcat</module>
+        <module>activemq</module>
         <!--<module>spring_learning</module>最为单独项目-->
     </modules>
 

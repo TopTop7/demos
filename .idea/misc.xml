@@ -21,6 +21,9 @@
         <option value="$PROJECT_DIR$/activemq_learning/no-spring/pom.xml" />
         <option value="$PROJECT_DIR$/activemq/pom.xml" />
         <option value="$PROJECT_DIR$/activemq/am-springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/concurrency/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/spring/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
